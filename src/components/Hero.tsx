@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { ArrowRight, Droplets, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Award, ShieldCheck } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 const Hero: React.FC = () => {
@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-gobo-dark via-gobo-dark/90 to-transparent"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-20">
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gobo-medium/50 border border-gobo-neon/30 text-gobo-neon mb-6 backdrop-blur-sm">
             <span className="relative flex h-3 w-3">
@@ -69,8 +69,8 @@ const Hero: React.FC = () => {
             </div>
             <div>
               <div className="flex items-center gap-2 text-gobo-neon mb-2">
-                <Droplets />
-                <span className="font-bold text-2xl">90°C</span>
+                <Award />
+                <span className="font-bold text-2xl">VCA</span>
               </div>
               <p className="text-gray-400 text-sm">{t('stat2Label')}</p>
             </div>
