@@ -1,8 +1,125 @@
 {
-  "Index": {
-    "welcome": "Bienvenue"
+  "metadata": {
+    "title": "GoBoclean | Nettoyage Industriel Expert",
+    "description": "Services professionnels de nettoyage industriel spécialisés dans les interventions haute pression et le support d'urgence 24/7."
   },
-  "LanguageSwitcher": {
-    "label": "Langue"
+  "navbar": {
+    "services": "Services",
+    "about": "À Propos",
+    "emergency": "Urgences",
+    "contact": "Contact",
+    "quote": "Devis Gratuit"
+  },
+  "hero": {
+    "badge": "Intervention 24/7 Disponible",
+    "title": "Puissance &",
+    "titleHighlight": "Précision Industrielle",
+    "description": "Spécialistes du nettoyage haute pression et de la décontamination industrielle. Nous remettons vos zones de production, quais et sols en état neuf, garantissant sécurité et conformité.",
+    "ctaPrimary": "Demander une Intervention",
+    "ctaSecondary": "Nos Services",
+    "stat1Label": "Conformité Sécurité",
+    "stat2Label": "Eau Chaude HP"
+  },
+  "services": {
+    "badge": "Nos Expertises",
+    "title": "Solutions de Nettoyage Industriel Complètes",
+    "description": "Nous déployons des techniques avancées et un équipement de pointe pour répondre aux défis les plus complexes de l'industrie.",
+    "floors": {
+      "title": "Dégraissage Sols Industriels",
+      "description": "Nettoyage intensif des sols encrassés pour usines, parkings souterrains et zones de circulation. Élimination des traces de gommes et graisses."
+    },
+    "production": {
+      "title": "Zones de Production",
+      "description": "Désinfection et nettoyage complet des lignes de production, machines et environnements sensibles pour maintenir la productivité."
+    },
+    "spills": {
+      "title": "Incidents & Fuites d'Huile",
+      "description": "Intervention d'urgence pour le nettoyage et la sécurisation après déversements accidentels d'hydrocarbures ou produits chimiques."
+    },
+    "concrete": {
+      "title": "Béton & Dallages",
+      "description": "Rénovation des surfaces en béton, décapage haute pression et traitement des sols pour ateliers et surfaces extérieures."
+    },
+    "logistics": {
+      "title": "Hangars & Dépôts",
+      "description": "Remise en état complète des grands volumes de stockage, dépoussiérage des structures et lavage des sols logistiques."
+    },
+    "docks": {
+      "title": "Quais de Chargement",
+      "description": "Nettoyage des zones de fret et quais de chargement pour assurer la sécurité des opérations logistiques quotidiennes."
+    }
+  },
+  "emergency": {
+    "badge": "Intervention Rapide",
+    "title": "Urgences Industrielles",
+    "titleHighlight": "24h/24 et 7j/7",
+    "description": "Fuite d'huile critique ? Sinistre ? Arrêt de production dû à l'encrassement ? Nos équipes de renfort sont prêtes à intervenir immédiatement pour minimiser vos temps d'arrêt.",
+    "feature1": "Réactivité immédiate",
+    "feature2": "Équipements autonomes haute performance",
+    "cta": "APPELER MAINTENANT",
+    "ctaSubtext": "Ligne Directe Urgence"
+  },
+  "about": {
+    "badge": "À Propos de GoBoclean",
+    "title": "Votre Partenaire de Confiance pour l'Hygiène Industrielle",
+    "description1": "Chez GoBoclean, nous comprenons que la propreté industrielle n'est pas seulement une question d'esthétique, mais une exigence de sécurité et de productivité.",
+    "description2": "Nos équipes spécialisées interviennent avec des équipements haute pression eau chaude de dernière génération. Que ce soit pour un entretien régulier ou une intervention post-sinistre, nous garantissons un résultat impeccable respectant les normes environnementales.",
+    "statYears": "Années d'expérience sur le terrain",
+    "feature1Title": "Haute Pression",
+    "feature1Description": "Technologie eau chaude pour graisses tenaces.",
+    "feature2Title": "Écologique",
+    "feature2Description": "Traitement des eaux usées et produits certifiés.",
+    "feature3Title": "Sécurité",
+    "feature3Description": "Personnel formé aux risques industriels.",
+    "feature4Title": "Flexibilité",
+    "feature4Description": "Interventions nuits et week-ends."
+  },
+  "contact": {
+    "badge": "Contactez-nous",
+    "title": "Demandez votre Devis Gratuit",
+    "infoTitle": "Informations",
+    "phone": "Téléphone",
+    "phoneAvailable": "Disponible 24/7",
+    "email": "Email",
+    "location": "Bureau",
+    "locationAddress": "Zone Industrielle Nord",
+    "locationCity": "75000 Paris, France",
+    "infoFooter": "Nos équipes interviennent sur toute la région pour vos besoins urgents.",
+    "formName": "Nom Complet",
+    "formNamePlaceholder": "Votre nom",
+    "formCompany": "Entreprise",
+    "formCompanyPlaceholder": "Nom de votre société",
+    "formEmail": "Email Professionnel",
+    "formEmailPlaceholder": "email@entreprise.com",
+    "formPhone": "Téléphone",
+    "formPhonePlaceholder": "06 12 34 56 78",
+    "formService": "Type de Service",
+    "formServiceOption1": "Nettoyage Sols Industriels",
+    "formServiceOption2": "Nettoyage Zone Production",
+    "formServiceOption3": "Urgence / Fuite Huile",
+    "formServiceOption4": "Nettoyage Hangars & Logistique",
+    "formServiceOption5": "Autre",
+    "formMessage": "Détails de la demande",
+    "formMessagePlaceholder": "Décrivez votre besoin, surface approximative, contraintes...",
+    "formSubmit": "Envoyer la Demande"
+  },
+  "footer": {
+    "description": "Solutions professionnelles de nettoyage industriel haute pression. Interventions rapides, efficaces et respectueuses de l'environnement pour vos infrastructures.",
+    "quickLinks": "Liens Rapides",
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Nos Services",
+    "quote": "Demander un Devis",
+    "servicesTitle": "Services",
+    "serviceFloors": "Dégraissage Sols",
+    "serviceProduction": "Nettoyage Usines",
+    "serviceSpills": "Urgence Fuite Huile",
+    "serviceDocks": "Nettoyage Quais",
+    "legalTitle": "Légal",
+    "legalTerms": "Mentions Légales",
+    "legalPrivacy": "Politique de Confidentialité",
+    "legalCGV": "CGV",
+    "copyright": "GoBoclean Solutions. Tous droits réservés.",
+    "status": "Systèmes Opérationnels 24/7"
   }
 }

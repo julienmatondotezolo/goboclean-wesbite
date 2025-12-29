@@ -1,8 +1,125 @@
 {
-  "Index": {
-    "welcome": "Welkom"
+  "metadata": {
+    "title": "GoBoclean | Expert Industriële Reiniging",
+    "description": "Professionele industriële reinigingsdiensten gespecialiseerd in hogedruk interventies en 24/7 noodhulp."
   },
-  "LanguageSwitcher": {
-    "label": "Taal"
+  "navbar": {
+    "services": "Diensten",
+    "about": "Over Ons",
+    "emergency": "Noodgeval",
+    "contact": "Contact",
+    "quote": "Gratis Offerte"
+  },
+  "hero": {
+    "badge": "24/7 Interventie Beschikbaar",
+    "title": "Kracht &",
+    "titleHighlight": "Industriële Precisie",
+    "description": "Specialisten in hogedruk reiniging en industriële decontaminatie. We herstellen uw productiegebieden, kades en vloeren tot perfecte staat, met garantie voor veiligheid en naleving.",
+    "ctaPrimary": "Interventie Aanvragen",
+    "ctaSecondary": "Onze Diensten",
+    "stat1Label": "Veiligheidsnaleving",
+    "stat2Label": "Heet Water HP"
+  },
+  "services": {
+    "badge": "Onze Expertise",
+    "title": "Volledige Industriële Reinigingsoplossingen",
+    "description": "We zetten geavanceerde technieken en ultramoderne apparatuur in om de meest complexe industriële uitdagingen aan te pakken.",
+    "floors": {
+      "title": "Industriële Vloerontvetting",
+      "description": "Intensieve reiniging van vervuilde vloeren voor fabriek, ondergrondse parkeergarages en verkeersgebieden. Verwijdering van rubberstrepen en vet."
+    },
+    "production": {
+      "title": "Productiegebieden",
+      "description": "Volledige desinfectie en reiniging van productielijnen, machines en gevoelige omgevingen om productiviteit te behouden."
+    },
+    "spills": {
+      "title": "Incidenten & Olielekken",
+      "description": "Noodinterventie voor reiniging en beveiliging na onopzettelijke lozingen van koolwaterstoffen of chemische producten."
+    },
+    "concrete": {
+      "title": "Beton & Bestrating",
+      "description": "Renovatie van betonnen oppervlakken, hogedruk strippen en vloerafwerking voor werkplaatsen en buitenoppervlakken."
+    },
+    "logistics": {
+      "title": "Loodsen & Depots",
+      "description": "Volledig herstel van grote opslagvolumes, ontstoffing van structuren en wassen van logistieke vloeren."
+    },
+    "docks": {
+      "title": "Laadkades",
+      "description": "Reiniging van vrachtgebieden en laadkades om de veiligheid van dagelijkse logistieke operaties te garanderen."
+    }
+  },
+  "emergency": {
+    "badge": "Snelle Interventie",
+    "title": "Industriële Noodgevallen",
+    "titleHighlight": "24/7 - 365 Dagen",
+    "description": "Kritiek olielek? Ramp? Productiestop door vervuiling? Onze back-upteams staan klaar om onmiddellijk te interveniëren om uw downtime te minimaliseren.",
+    "feature1": "Onmiddellijke reactie",
+    "feature2": "Hoogwaardige autonome apparatuur",
+    "cta": "BEL NU",
+    "ctaSubtext": "Directe Noodlijn"
+  },
+  "about": {
+    "badge": "Over GoBoclean",
+    "title": "Uw Vertrouwde Partner voor Industriële Hygiëne",
+    "description1": "Bij GoBoclean begrijpen we dat industriële reinheid niet alleen een kwestie van esthetiek is, maar een veiligheids- en productiviteitsvereiste.",
+    "description2": "Onze gespecialiseerde teams interveniëren met de nieuwste warmwater hogedruk apparatuur. Of het nu gaat om regelmatig onderhoud of interventie na een ramp, we garanderen een onberispelijk resultaat met respect voor milieunormen.",
+    "statYears": "Jaar veldervaring",
+    "feature1Title": "Hogedruk",
+    "feature1Description": "Warmwatertechnologie voor hardnekkig vet.",
+    "feature2Title": "Ecologisch",
+    "feature2Description": "Afvalwaterbehandeling en gecertificeerde producten.",
+    "feature3Title": "Veiligheid",
+    "feature3Description": "Personeel getraind in industriële risico's.",
+    "feature4Title": "Flexibiliteit",
+    "feature4Description": "Interventies 's nachts en in het weekend."
+  },
+  "contact": {
+    "badge": "Neem Contact Op",
+    "title": "Vraag Uw Gratis Offerte Aan",
+    "infoTitle": "Informatie",
+    "phone": "Telefoon",
+    "phoneAvailable": "Beschikbaar 24/7",
+    "email": "E-mail",
+    "location": "Kantoor",
+    "locationAddress": "Noord Industriezone",
+    "locationCity": "75000 Parijs, Frankrijk",
+    "infoFooter": "Onze teams opereren in de hele regio voor uw dringende behoeften.",
+    "formName": "Volledige Naam",
+    "formNamePlaceholder": "Uw naam",
+    "formCompany": "Bedrijf",
+    "formCompanyPlaceholder": "Uw bedrijfsnaam",
+    "formEmail": "Professionele E-mail",
+    "formEmailPlaceholder": "email@bedrijf.com",
+    "formPhone": "Telefoon",
+    "formPhonePlaceholder": "06 12 34 56 78",
+    "formService": "Type Dienst",
+    "formServiceOption1": "Industriële Vloerreiniging",
+    "formServiceOption2": "Productiegebied Reiniging",
+    "formServiceOption3": "Noodgeval / Olielek",
+    "formServiceOption4": "Loods & Logistiek Reiniging",
+    "formServiceOption5": "Andere",
+    "formMessage": "Verzoek Details",
+    "formMessagePlaceholder": "Beschrijf uw behoeften, geschatte oppervlakte, beperkingen...",
+    "formSubmit": "Verzoek Verzenden"
+  },
+  "footer": {
+    "description": "Professionele hogedruk industriële reinigingsoplossingen. Snelle, efficiënte en milieuvriendelijke interventies voor uw infrastructuur.",
+    "quickLinks": "Snelle Links",
+    "home": "Home",
+    "about": "Over Ons",
+    "services": "Onze Diensten",
+    "quote": "Offerte Aanvragen",
+    "servicesTitle": "Diensten",
+    "serviceFloors": "Vloerontvetting",
+    "serviceProduction": "Fabriekreiniging",
+    "serviceSpills": "Noodgeval Olielek",
+    "serviceDocks": "Kadereiniging",
+    "legalTitle": "Juridisch",
+    "legalTerms": "Juridische Kennisgeving",
+    "legalPrivacy": "Privacybeleid",
+    "legalCGV": "Algemene Voorwaarden",
+    "copyright": "GoBoclean Solutions. Alle rechten voorbehouden.",
+    "status": "24/7 Operationele Systemen"
   }
 }

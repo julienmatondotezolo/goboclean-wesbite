@@ -1,8 +1,125 @@
 {
-  "Index": {
-    "welcome": "Welcome"
+  "metadata": {
+    "title": "GoBoclean | Expert Industrial Cleaning",
+    "description": "Professional industrial cleaning services specializing in high-pressure interventions and 24/7 emergency support."
   },
-  "LanguageSwitcher": {
-    "label": "Language"
+  "navbar": {
+    "services": "Services",
+    "about": "About",
+    "emergency": "Emergency",
+    "contact": "Contact",
+    "quote": "Free Quote"
+  },
+  "hero": {
+    "badge": "24/7 Intervention Available",
+    "title": "Power &",
+    "titleHighlight": "Industrial Precision",
+    "description": "Specialists in high-pressure cleaning and industrial decontamination. We restore your production areas, docks, and floors to pristine condition, ensuring safety and compliance.",
+    "ctaPrimary": "Request Intervention",
+    "ctaSecondary": "Our Services",
+    "stat1Label": "Safety Compliance",
+    "stat2Label": "Hot Water HP"
+  },
+  "services": {
+    "badge": "Our Expertise",
+    "title": "Complete Industrial Cleaning Solutions",
+    "description": "We deploy advanced techniques and state-of-the-art equipment to meet the most complex industry challenges.",
+    "floors": {
+      "title": "Industrial Floor Degreasing",
+      "description": "Intensive cleaning of soiled floors for factories, underground parking, and traffic areas. Removal of rubber marks and grease."
+    },
+    "production": {
+      "title": "Production Areas",
+      "description": "Complete disinfection and cleaning of production lines, machines, and sensitive environments to maintain productivity."
+    },
+    "spills": {
+      "title": "Incidents & Oil Spills",
+      "description": "Emergency intervention for cleaning and securing after accidental spills of hydrocarbons or chemical products."
+    },
+    "concrete": {
+      "title": "Concrete & Paving",
+      "description": "Renovation of concrete surfaces, high-pressure stripping, and floor treatment for workshops and outdoor surfaces."
+    },
+    "logistics": {
+      "title": "Warehouses & Depots",
+      "description": "Complete restoration of large storage volumes, structure dusting, and logistics floor washing."
+    },
+    "docks": {
+      "title": "Loading Docks",
+      "description": "Cleaning of freight areas and loading docks to ensure the safety of daily logistics operations."
+    }
+  },
+  "emergency": {
+    "badge": "Rapid Intervention",
+    "title": "Industrial Emergencies",
+    "titleHighlight": "24/7 - 365 Days",
+    "description": "Critical oil leak? Disaster? Production shutdown due to fouling? Our backup teams are ready to intervene immediately to minimize your downtime.",
+    "feature1": "Immediate response",
+    "feature2": "High-performance autonomous equipment",
+    "cta": "CALL NOW",
+    "ctaSubtext": "Emergency Direct Line"
+  },
+  "about": {
+    "badge": "About GoBoclean",
+    "title": "Your Trusted Partner for Industrial Hygiene",
+    "description1": "At GoBoclean, we understand that industrial cleanliness is not just a matter of aesthetics, but a safety and productivity requirement.",
+    "description2": "Our specialized teams intervene with the latest hot water high-pressure equipment. Whether for regular maintenance or post-disaster intervention, we guarantee an impeccable result respecting environmental standards.",
+    "statYears": "Years of field experience",
+    "feature1Title": "High Pressure",
+    "feature1Description": "Hot water technology for stubborn grease.",
+    "feature2Title": "Ecological",
+    "feature2Description": "Wastewater treatment and certified products.",
+    "feature3Title": "Safety",
+    "feature3Description": "Staff trained in industrial risks.",
+    "feature4Title": "Flexibility",
+    "feature4Description": "Night and weekend interventions."
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "title": "Request Your Free Quote",
+    "infoTitle": "Information",
+    "phone": "Phone",
+    "phoneAvailable": "Available 24/7",
+    "email": "Email",
+    "location": "Office",
+    "locationAddress": "North Industrial Zone",
+    "locationCity": "75000 Paris, France",
+    "infoFooter": "Our teams operate throughout the region for your urgent needs.",
+    "formName": "Full Name",
+    "formNamePlaceholder": "Your name",
+    "formCompany": "Company",
+    "formCompanyPlaceholder": "Your company name",
+    "formEmail": "Professional Email",
+    "formEmailPlaceholder": "email@company.com",
+    "formPhone": "Phone",
+    "formPhonePlaceholder": "06 12 34 56 78",
+    "formService": "Service Type",
+    "formServiceOption1": "Industrial Floor Cleaning",
+    "formServiceOption2": "Production Area Cleaning",
+    "formServiceOption3": "Emergency / Oil Spill",
+    "formServiceOption4": "Warehouse & Logistics Cleaning",
+    "formServiceOption5": "Other",
+    "formMessage": "Request Details",
+    "formMessagePlaceholder": "Describe your needs, approximate area, constraints...",
+    "formSubmit": "Send Request"
+  },
+  "footer": {
+    "description": "Professional high-pressure industrial cleaning solutions. Fast, efficient, and environmentally friendly interventions for your infrastructure.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About",
+    "services": "Our Services",
+    "quote": "Request a Quote",
+    "servicesTitle": "Services",
+    "serviceFloors": "Floor Degreasing",
+    "serviceProduction": "Factory Cleaning",
+    "serviceSpills": "Emergency Oil Spill",
+    "serviceDocks": "Dock Cleaning",
+    "legalTitle": "Legal",
+    "legalTerms": "Legal Notice",
+    "legalPrivacy": "Privacy Policy",
+    "legalCGV": "Terms & Conditions",
+    "copyright": "GoBoclean Solutions. All rights reserved.",
+    "status": "24/7 Operational Systems"
   }
 }
