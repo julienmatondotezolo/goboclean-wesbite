@@ -24,7 +24,7 @@ export default async function RootLayout({
 
   return (
     <html suppressHydrationWarning={true} lang={locale}>
-      <body className={`${dmSans.className}`}>
+      <body className="bg-slate-50 text-slate-900 scroll-smooth">
         <Providers locale={locale}>{children}</Providers>
       </body>
     </html>
