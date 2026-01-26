@@ -1,125 +1,134 @@
 {
   "metadata": {
-    "title": "GoBoclean | Expert Industrial Cleaning",
-    "description": "Professional industrial cleaning services specializing in high-pressure interventions and 24/7 emergency support."
+    "title": "Goboclean | VCA Certified Industrial Cleaning Services Belgium",
+    "description": "VCA certified industrial cleaning company in Belgium. Professional cleaning services with 24/7 emergency support. Industrial floors, production areas, and oil spill cleanup. Call +32 483 50 12 55"
   },
   "navbar": {
     "services": "Services",
     "about": "About",
-    "emergency": "Emergency",
+    "emergency": "24/7 Emergency",
     "contact": "Contact",
     "quote": "Free Quote"
   },
   "hero": {
-    "badge": "24/7 Intervention Available",
-    "title": "Power &",
-    "titleHighlight": "Industrial Precision",
-    "description": "Specialists in high-pressure cleaning and industrial decontamination. We restore your production areas, docks, and floors to pristine condition, ensuring safety and compliance.",
-    "ctaPrimary": "Request Intervention",
-    "ctaSecondary": "Our Services",
-    "stat1Label": "Safety Compliance",
-    "stat2Label": "VCA Certified"
+    "badge": "VCA Certified • 24/7 Emergency Service",
+    "title": "Professional Industrial",
+    "titleHighlight": "Cleaning Solutions",
+    "description": "Belgium's trusted VCA certified partner for industrial cleaning services. Specialized in high-pressure cleaning, decontamination, and emergency interventions. Serving factories, warehouses, and industrial facilities across Belgium with guaranteed safety compliance.",
+    "ctaPrimary": "Request Emergency Service",
+    "ctaSecondary": "View Our Services",
+    "stat1Label": "VCA Certified",
+    "stat2Label": "24/7 Available"
   },
   "services": {
-    "badge": "Our Expertise",
-    "title": "Complete Industrial Cleaning Solutions",
-    "description": "We deploy advanced techniques and state-of-the-art equipment to meet the most complex industry challenges.",
+    "badge": "VCA Certified Services",
+    "title": "Complete Industrial Cleaning & Maintenance",
+    "description": "Professional cleaning solutions backed by VCA certification. We deliver expert industrial hygiene services with advanced equipment and certified safety protocols for maximum efficiency.",
     "floors": {
-      "title": "Industrial Floor Degreasing",
-      "description": "Intensive cleaning of soiled floors for factories, underground parking, and traffic areas. Removal of rubber marks and grease."
+      "title": "Industrial Floor Cleaning & Degreasing",
+      "description": "High-pressure cleaning for factory floors, parking garages, and industrial surfaces. Complete removal of grease, oil, rubber marks, and stubborn contaminants. VCA safety compliance guaranteed."
     },
     "production": {
-      "title": "Production Areas",
-      "description": "Complete disinfection and cleaning of production lines, machines, and sensitive environments to maintain productivity."
+      "title": "Production Area Decontamination",
+      "description": "Professional cleaning and disinfection of production lines, machinery, and sensitive manufacturing environments. Maintain productivity with minimal downtime and full compliance."
     },
     "spills": {
-      "title": "Incidents & Oil Spills",
-      "description": "Emergency intervention for cleaning and securing after accidental spills of hydrocarbons or chemical products."
+      "title": "Emergency Oil Spill Response",
+      "description": "24/7 rapid response for oil and chemical spills. Immediate containment, cleanup, and safe disposal of hazardous materials. Minimize production loss with our emergency intervention teams."
     },
     "concrete": {
-      "title": "Concrete & Paving",
-      "description": "Renovation of concrete surfaces, high-pressure stripping, and floor treatment for workshops and outdoor surfaces."
+      "title": "Concrete & Surface Restoration",
+      "description": "Professional renovation of concrete surfaces, industrial paving, and workshop floors. High-pressure stripping and protective treatment for lasting results."
     },
     "logistics": {
-      "title": "Warehouses & Depots",
-      "description": "Complete restoration of large storage volumes, structure dusting, and logistics floor washing."
+      "title": "Warehouse & Logistics Cleaning",
+      "description": "Complete cleaning solutions for warehouses, distribution centers, and storage facilities. Structure dusting, floor washing, and comprehensive hygiene maintenance."
     },
     "docks": {
-      "title": "Loading Docks",
-      "description": "Cleaning of freight areas and loading docks to ensure the safety of daily logistics operations."
+      "title": "Loading Dock Maintenance",
+      "description": "Regular and emergency cleaning of loading docks, freight areas, and logistics zones. Ensure safe daily operations and compliance with workplace safety standards."
     }
   },
   "emergency": {
-    "badge": "Rapid Intervention",
-    "title": "Industrial Emergencies",
-    "titleHighlight": "24/7 - 365 Days",
-    "description": "Critical oil leak? Disaster? Production shutdown due to fouling? Our backup teams are ready to intervene immediately to minimize your downtime.",
-    "feature1": "Immediate response",
-    "feature2": "High-performance autonomous equipment",
-    "cta": "CALL NOW",
-    "ctaSubtext": "Emergency Direct Line"
+    "badge": "24/7 Emergency Response",
+    "title": "Industrial Emergency?",
+    "titleHighlight": "We're Ready Now",
+    "description": "Critical oil leak? Production halt due to contamination? Fire or flood damage requiring immediate cleanup? Our VCA certified emergency teams respond immediately with professional equipment to minimize your downtime and losses.",
+    "feature1": "Immediate deployment • VCA certified teams",
+    "feature2": "Professional autonomous equipment",
+    "cta": "CALL EMERGENCY LINE",
+    "ctaSubtext": "+32 483 50 12 55 • Available 24/7/365"
   },
   "about": {
-    "badge": "About GoBoclean",
-    "title": "Your Trusted Partner for Industrial Hygiene",
-    "description1": "At GoBoclean, we understand that industrial cleanliness is not just a matter of aesthetics, but a safety and productivity requirement.",
-    "description2": "Our specialized teams intervene with the latest hot water high-pressure equipment. Whether for regular maintenance or post-disaster intervention, we guarantee an impeccable result respecting environmental standards.",
-    "statYears": "Years of field experience",
-    "feature1Title": "High Pressure",
-    "feature1Description": "Hot water technology for stubborn grease.",
-    "feature2Title": "Ecological",
-    "feature2Description": "Wastewater treatment and certified products.",
-    "feature3Title": "Safety",
-    "feature3Description": "Staff trained in industrial risks.",
-    "feature4Title": "Flexibility",
-    "feature4Description": "Night and weekend interventions."
+    "badge": "VCA Certified Company",
+    "title": "Your Trusted Partner for Industrial Hygiene Excellence",
+    "description1": "Goboclean is a VCA certified Belgian company specializing in professional industrial cleaning and maintenance services. We understand that industrial cleanliness is critical for safety, compliance, and productivity. Our certification guarantees the highest safety and quality standards.",
+    "description2": "Our certified teams use state-of-the-art hot water high-pressure equipment and environmentally approved products. Whether you need regular maintenance or emergency intervention, we deliver impeccable results while respecting environmental regulations and workplace safety requirements.",
+    "statYears": "Years of proven expertise",
+    "feature1Title": "VCA Certified",
+    "feature1Description": "Official safety certification for industrial work environments.",
+    "feature2Title": "Advanced Technology",
+    "feature2Description": "Industrial hot water high-pressure equipment for superior results.",
+    "feature3Title": "Safety First",
+    "feature3Description": "Certified personnel trained in industrial risk prevention.",
+    "feature4Title": "24/7 Availability",
+    "feature4Description": "Emergency response teams ready day, night, and weekends."
   },
   "contact": {
-    "badge": "Contact Us",
-    "title": "Request Your Free Quote",
-    "infoTitle": "Information",
+    "badge": "Get Your Free Quote",
+    "title": "Professional Industrial Cleaning Services",
+    "infoTitle": "Contact Information",
     "phone": "Phone",
-    "phoneAvailable": "Available 24/7",
+    "phoneNumber": "+32 483 50 12 55",
+    "phoneAvailable": "Available 24/7 for Emergencies",
     "email": "Email",
-    "location": "Office",
-    "locationAddress": "North Industrial Zone",
+    "emailAddress": "info@goboclean.be",
+    "location": "Office Address",
+    "locationAddress": "J. Wielemansstraat 42",
     "locationCity": "1652 Beersel, Belgium",
-    "infoFooter": "Our teams operate throughout the region for your urgent needs.",
+    "vat": "VAT Number",
+    "vatNumber": "BE 0799.936.135",
+    "infoFooter": "VCA certified teams serving all of Belgium for your industrial cleaning needs.",
     "formName": "Full Name",
-    "formNamePlaceholder": "Your name",
-    "formCompany": "Company",
-    "formCompanyPlaceholder": "Your company name",
+    "formNamePlaceholder": "Your full name",
+    "formCompany": "Company Name",
+    "formCompanyPlaceholder": "Your company",
     "formEmail": "Professional Email",
-    "formEmailPlaceholder": "email@company.com",
-    "formPhone": "Phone",
-    "formPhonePlaceholder": "04 98 76 54 32",
-    "formService": "Service Type",
+    "formEmailPlaceholder": "your.email@company.be",
+    "formPhone": "Phone Number",
+    "formPhonePlaceholder": "+32 4XX XX XX XX",
+    "formService": "Service Required",
     "formServiceOption1": "Industrial Floor Cleaning",
     "formServiceOption2": "Production Area Cleaning",
-    "formServiceOption3": "Emergency / Oil Spill",
+    "formServiceOption3": "Emergency / Oil Spill Response",
     "formServiceOption4": "Warehouse & Logistics Cleaning",
-    "formServiceOption5": "Other",
-    "formMessage": "Request Details",
-    "formMessagePlaceholder": "Describe your needs, approximate area, constraints...",
-    "formSubmit": "Send Request"
+    "formServiceOption5": "Other Service",
+    "formMessage": "Project Details",
+    "formMessagePlaceholder": "Please describe your needs: surface area, type of contamination, frequency required, specific constraints...",
+    "formSubmit": "Request Free Quote"
   },
   "footer": {
-    "description": "Professional high-pressure industrial cleaning solutions. Fast, efficient, and environmentally friendly interventions for your infrastructure.",
+    "description": "Goboclean - VCA certified industrial cleaning company in Belgium. Professional high-pressure cleaning, decontamination, and 24/7 emergency services for industrial facilities.",
     "quickLinks": "Quick Links",
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
     "services": "Our Services",
-    "quote": "Request a Quote",
-    "servicesTitle": "Services",
+    "quote": "Request Quote",
+    "servicesTitle": "Our Services",
     "serviceFloors": "Floor Degreasing",
-    "serviceProduction": "Factory Cleaning",
-    "serviceSpills": "Emergency Oil Spill",
-    "serviceDocks": "Dock Cleaning",
+    "serviceProduction": "Production Cleaning",
+    "serviceSpills": "Emergency Response",
+    "serviceDocks": "Loading Dock Cleaning",
+    "contactTitle": "Contact",
+    "contactPhone": "+32 483 50 12 55",
+    "contactEmail": "info@goboclean.be",
+    "contactAddress": "J. Wielemansstraat 42, 1652 Beersel",
+    "contactVat": "VAT: BE 0799.936.135",
     "legalTitle": "Legal",
-    "legalTerms": "Legal Notice",
+    "legalTerms": "Terms of Service",
     "legalPrivacy": "Privacy Policy",
-    "legalCGV": "Terms & Conditions",
-    "copyright": "GoBoclean Solutions. All rights reserved.",
-    "status": "24/7 Operational Systems"
+    "legalCGV": "General Conditions",
+    "copyright": "© 2026 Goboclean. All rights reserved. VCA Certified Company.",
+    "status": "24/7 Emergency Service Available"
   }
 }
