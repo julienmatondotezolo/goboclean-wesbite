@@ -65,10 +65,12 @@ const Emergency: React.FC = () => {
                className="group relative inline-flex items-center justify-center overflow-hidden rounded-full hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-gobo-neon/50"
              >
                 <div className="relative bg-gobo-neon rounded-full px-8 py-6 transition-all ease-in duration-75 group-hover:bg-opacity-90">
-                    <div className="flex flex-row items-center gap-1.5">
-                      <PhoneCall className="h-8 w-8 text-gobo-dark group-hover:animate-pulse" />
-                      <span className="text-gobo-dark font-extrabold text-xl tracking-tight">{t('cta')}</span>
-                      <span className="text-gobo-dark/70 font-medium text-sm">{t('ctaSubtext')}</span>
+                    <div className="flex flex-col items-center text-center gap-2">
+                      <div className="flex items-center gap-2">
+                        <PhoneCall className="h-6 w-6 text-gobo-dark group-hover:animate-pulse" />
+                        <span className="text-gobo-dark font-extrabold text-lg tracking-tight">{t('cta')}</span>
+                      </div>
+                      <span className="text-gobo-dark/80 font-medium text-sm whitespace-nowrap">{t('ctaSubtext')}</span>
                     </div>
                 </div>
              </a>

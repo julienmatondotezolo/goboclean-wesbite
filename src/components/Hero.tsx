@@ -22,38 +22,44 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-gobo-dark via-gobo-dark/90 to-transparent"></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex items-center justify-center min-h-screen">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex items-center justify-center min-h-screen py-20">
         <div className="max-w-4xl text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gobo-medium/50 border border-gobo-neon/30 text-gobo-neon mb-6 backdrop-blur-sm">
-            <span className="relative flex h-3 w-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-gobo-medium/50 border border-gobo-neon/30 text-gobo-neon mb-4 sm:mb-6 backdrop-blur-sm">
+            <span className="relative flex h-2 w-2 sm:h-3 sm:w-3">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gobo-neon opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-gobo-neon"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 sm:h-3 sm:w-3 bg-gobo-neon"></span>
             </span>
-            <span className="text-sm font-semibold uppercase tracking-wider">{t('badge')}</span>
+            <span className="text-xs sm:text-sm font-semibold uppercase tracking-wider">{t('badge')}</span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4 sm:mb-6 px-2">
             {t('title')} <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gobo-neon to-emerald-400">
               {t('titleHighlight')}
             </span>
           </h1>
           
-          <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+          {/* Hide long description on mobile, show shorter version */}
+          <p className="hidden sm:block text-lg md:text-xl text-gray-300 mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed">
             {t('description')}
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          {/* Mobile-optimized shorter description */}
+          <p className="sm:hidden text-sm text-gray-300 mb-6 px-4 leading-relaxed">
+            {t('descriptionMobile')}
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
             <a
               href="#contact"
-              className="flex items-center justify-center gap-3 bg-gobo-neon text-gobo-dark px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-all duration-300 group"
+              className="flex items-center justify-center gap-2 bg-gobo-neon text-gobo-dark px-6 py-3 sm:px-8 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-white transition-all duration-300 group"
             >
               {t('ctaPrimary')}
-              <ArrowRight className="group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
               href="#services"
-              className="flex items-center justify-center gap-3 px-8 py-4 rounded-lg font-bold text-lg text-white border border-gray-600 hover:border-gobo-neon hover:text-gobo-neon transition-all duration-300 backdrop-blur-sm bg-white/5"
+              className="flex items-center justify-center gap-2 px-6 py-3 sm:px-8 sm:py-4 rounded-lg font-bold text-base sm:text-lg text-white border border-gray-600 hover:border-gobo-neon hover:text-gobo-neon transition-all duration-300 backdrop-blur-sm bg-white/5"
             >
               {t('ctaSecondary')}
             </a>
@@ -62,8 +68,8 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      {/* Stats Section - Bottom Left */}
-      <div className="absolute bottom-8 left-8 z-10">
+      {/* Stats Section - Bottom Left (Hidden on mobile) */}
+      <div className="hidden sm:block absolute bottom-8 left-8 z-10">
         <div className="flex items-center gap-3">
           <Award className="w-8 h-8 text-gobo-neon" />
           <div>
@@ -76,7 +82,7 @@ const Hero: React.FC = () => {
       </div>
       
       {/* Decorative accent */}
-      <div className="absolute bottom-0 right-0 w-1/3 h-4 bg-gobo-neon"></div>
+      <div className="absolute bottom-0 right-0 w-1/2 sm:w-1/3 h-2 sm:h-4 bg-gobo-neon"></div>
     </div>
   );
 };
