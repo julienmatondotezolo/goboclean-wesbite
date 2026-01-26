@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { ArrowRight, Award, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Award } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 const Hero: React.FC = () => {
@@ -22,8 +22,8 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-gobo-dark via-gobo-dark/90 to-transparent"></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-20">
-        <div className="max-w-3xl">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex items-center justify-center min-h-screen">
+        <div className="max-w-4xl text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gobo-medium/50 border border-gobo-neon/30 text-gobo-neon mb-6 backdrop-blur-sm">
             <span className="relative flex h-3 w-3">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gobo-neon opacity-75"></span>
@@ -32,18 +32,18 @@ const Hero: React.FC = () => {
             <span className="text-sm font-semibold uppercase tracking-wider">{t('badge')}</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
             {t('title')} <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gobo-neon to-emerald-400">
               {t('titleHighlight')}
             </span>
           </h1>
           
-          <p className="text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed">
+          <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
             {t('description')}
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#contact"
               className="flex items-center justify-center gap-3 bg-gobo-neon text-gobo-dark px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-all duration-300 group"
@@ -59,21 +59,18 @@ const Hero: React.FC = () => {
             </a>
           </div>
 
-          <div className="mt-16 grid grid-cols-2 md:grid-cols-3 gap-8 border-t border-gray-800 pt-8">
-            <div>
-              <div className="flex items-center gap-2 text-gobo-neon mb-2">
-                <ShieldCheck />
-                <span className="font-bold text-2xl">100%</span>
-              </div>
-              <p className="text-gray-400 text-sm">{t('stat1Label')}</p>
+        </div>
+      </div>
+
+      {/* Stats Section - Bottom Left */}
+      <div className="absolute bottom-8 left-8 z-10">
+        <div className="flex items-center gap-3">
+          <Award className="w-8 h-8 text-gobo-neon" />
+          <div>
+            <div className="flex items-center gap-2 text-gobo-neon mb-1">
+              <span className="font-bold text-3xl">VCA</span>
             </div>
-            <div>
-              <div className="flex items-center gap-2 text-gobo-neon mb-2">
-                <Award />
-                <span className="font-bold text-2xl">VCA</span>
-              </div>
-              <p className="text-gray-400 text-sm">{t('stat2Label')}</p>
-            </div>
+            <p className="text-gray-300 text-sm font-medium">{t('stat2Label')}</p>
           </div>
         </div>
       </div>
