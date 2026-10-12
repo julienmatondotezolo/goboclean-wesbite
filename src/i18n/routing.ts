@@ -5,8 +5,9 @@ export const routing = defineRouting({
   // A list of all locales that are supported
   locales: ["en", "fr", "nl"],
 
-  // Used when no locale matches
+  // Langue du navigateur (Accept-Language) détectée sur "/" ; anglais si non supportée
   defaultLocale: "en",
+  localeDetection: true,
 });
 
 // Lightweight wrappers around Next.js' navigation APIs

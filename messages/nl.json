@@ -1,135 +1,238 @@
 {
   "metadata": {
-    "title": "Goboclean | VCA Gecertificeerde Industriële Reinigingsdiensten België",
-    "description": "VCA gecertificeerd industrieel reinigingsbedrijf in België. Professionele reinigingsdiensten met 24/7 noodondersteuning. Industriële vloeren, productiegebieden en olielek opruiming. Bel +32 483 50 12 55"
+    "title": "GoboClean | Gevelreiniging, graffitiverwijdering en industriële reiniging in België — VCA certified",
+    "description": "Gevelreiniging, graffitiverwijdering, ontmossing, vlekverwijdering op vloeren, herschilderen en industriële reiniging voor syndici, gemeenten en bedrijven. VCA certified teams, biologisch afbreekbare producten, spoedinterventies 24/7 in heel België."
   },
-  "navbar": {
+  "nav": {
     "services": "Diensten",
-    "about": "Over Ons",
-    "emergency": "24/7 Noodgeval",
+    "sectors": "Sectoren",
+    "method": "Werkwijze",
+    "why": "Engagementen",
     "contact": "Contact",
-    "quote": "Gratis Offerte"
+    "quote": "Offerte aanvragen",
+    "emergency": "Spoed 24/7",
+    "menu": "Menu"
   },
   "hero": {
-    "badge": "VCA Gecertificeerd • 24/7 Nooddienst",
-    "title": "Professionele Industriële",
-    "titleHighlight": "Reinigingsoplossingen",
-    "description": "Uw vertrouwde VCA gecertificeerde partner in België voor industriële reinigingsdiensten. Gespecialiseerd in hogedruk reiniging, decontaminatie en noodinterventies. We bedienen fabriek, magazijnen en industriële faciliteiten in heel België met gegarandeerde veiligheidsnaleving.",
-    "descriptionMobile": "Professionele VCA gecertificeerde industriële reiniging. 24/7 nooddienst beschikbaar.",
-    "ctaPrimary": "Vraag Nooddienst Aan",
-    "ctaSecondary": "Bekijk Onze Diensten",
-    "stat1Label": "VCA Gecertificeerd",
-    "stat2Label": "24/7 Beschikbaar"
+    "eyebrow": "Technische B2B-reiniging · België",
+    "title1": "Gevels, graffiti,",
+    "title2": "industriële sites.",
+    "titleHighlight": "Als nieuw.",
+    "lead": "GoboClean reinigt en herstelt gebouwen en sites van syndici, vastgoedbeheerders, gemeenten en bedrijven. VCA certified teams, hogedrukmaterieel en interventies 24/7 in heel België.",
+    "ctaQuote": "Offerte aanvragen",
+    "ctaCall": "Nu bellen",
+    "badgeVca": "VCA certified",
+    "badge24": "Spoed 24/7",
+    "badgeBe": "Heel België",
+    "badgeEco": "Biologisch afbreekbare producten",
+    "visualLabel": "Gevel wordt gereinigd"
+  },
+  "figures": {
+    "agents": "medewerkers op het terrein",
+    "vans": "uitgeruste bestelwagens",
+    "machines": "Dibo-hogedrukmachines",
+    "availability": "spoed, weekends en feestdagen inbegrepen",
+    "note": "Eigen teams en eigen materieel: we plannen snel en houden ons aan de timing."
   },
   "services": {
-    "badge": "VCA Gecertificeerde Diensten",
-    "title": "Volledige Industriële Reiniging & Onderhoud",
-    "description": "Professionele reinigingsoplossingen ondersteund door VCA certificering. We leveren expert industriële hygiënediensten met geavanceerde apparatuur en gecertificeerde veiligheidsprotocollen voor maximale efficiëntie.",
-    "floors": {
-      "title": "Industriële Vloerreiniging & Ontvetting",
-      "description": "Hogedruk reiniging voor fabrieksvloeren, ondergrondse parkeergarages en industriële oppervlakken. Volledige verwijdering van vet, olie, rubberstrepen en hardnekkige verontreinigingen. VCA veiligheidsnaleving gegarandeerd."
-    },
-    "production": {
-      "title": "Productiegebied Decontaminatie",
-      "description": "Professionele reiniging en desinfectie van productielijnen, machines en gevoelige productieomgevingen. Behoud productiviteit met minimale downtime en volledige naleving."
-    },
-    "spills": {
-      "title": "Nood Olielek Interventie",
-      "description": "24/7 snelle respons voor olie- en chemische lekken. Onmiddellijke insluiting, reiniging en veilige verwijdering van gevaarlijke materialen. Minimaliseer productieverlies met onze noodinterventie teams."
-    },
-    "concrete": {
-      "title": "Beton & Oppervlakte Restauratie",
-      "description": "Professionele renovatie van betonnen oppervlakken, industriële bestrating en werkplaatsvloeren. Hogedruk strippen en beschermende behandeling voor blijvende resultaten."
-    },
-    "logistics": {
-      "title": "Magazijn & Logistiek Reiniging",
-      "description": "Volledige reinigingsoplossingen voor magazijnen, distributiecentra en opslagfaciliteiten. Structuur ontstoffing, vloerwassen en uitgebreid hygiëne onderhoud."
-    },
-    "docks": {
-      "title": "Laadperron Onderhoud",
-      "description": "Regelmatige en noodreiniging van laadperrons, vrachtgebieden en logistieke zones. Verzeker veilige dagelijkse operaties en naleving van arbeidsveiligheidsnormen."
-    }
+    "eyebrow": "01 — Diensten",
+    "title": "Alles wat aan de buitenkant van een gebouw gereinigd kan worden.",
+    "lead": "Van eenvoudig onderhoud tot moeilijke werven: we stemmen methode, druk en product af op elke ondergrond.",
+    "items": [
+      {
+        "key": "facades",
+        "title": "Gevelreiniging",
+        "desc": "Natuursteen, baksteen, crepi, beton of gevelbekleding: we geven uw gebouwen hun oorspronkelijke uitstraling terug en verhogen de waarde van uw patrimonium.",
+        "points": [
+          "Appartementsgebouwen, kantoren, handelszaken",
+          "Druk en product aangepast aan de ondergrond",
+          "Afgebakende en beveiligde werf"
+        ]
+      },
+      {
+        "key": "graffiti",
+        "title": "Graffitiverwijdering",
+        "desc": "Tags, graffiti en wildplakken verwijderd van alle ondergronden, zonder het materiaal te beschadigen. Een propere gevel beschermt uw imago.",
+        "points": [
+          "Steen, baksteen, metaal, glas",
+          "Snelle interventie, ook bij spoed",
+          "Resultaat gedocumenteerd met foto's"
+        ]
+      },
+      {
+        "key": "moss",
+        "title": "Ontmossing van muren en vloeren",
+        "desc": "Mos, korstmos, algen en groene aanslag verwijderd van muren, terrassen, binnenplaatsen, opritten en parkings, met biologisch afbreekbare producten.",
+        "points": [
+          "Grondige curatieve behandeling",
+          "Optionele waterafstotende bescherming",
+          "Minder gladde, veiligere vloeren"
+        ]
+      },
+      {
+        "key": "stains",
+        "title": "Vlekverwijdering en vloerreiniging",
+        "desc": "Olie, vet, kauwgom, roest, bandensporen: parkings, voetpaden, klinkers, tegels en toegangen zien er weer verzorgd uit.",
+        "points": [
+          "Parkings en verkeerszones",
+          "Klinkers, tegels, beton",
+          "Oude en ingetrokken vlekken"
+        ]
+      },
+      {
+        "key": "paint",
+        "title": "Herschilderen",
+        "desc": "Na de reiniging herschilderen we gevels, muren en buitenoppervlakken voor een strak en duurzaam resultaat.",
+        "points": [
+          "Volledige voorbereiding van de ondergrond",
+          "Kleur naar keuze",
+          "Verzorgde, duurzame afwerking"
+        ]
+      },
+      {
+        "key": "industrial",
+        "title": "Industriële reiniging",
+        "desc": "Vloeren van werkplaatsen en magazijnen, laadkades, olieplassen en olielekken: hogedrukreiniging die de stilstand van uw activiteit beperkt.",
+        "points": [
+          "Ontvetten onder hoge druk",
+          "Interventies buiten de productie-uren",
+          "Olielekken met spoed behandeld"
+        ]
+      }
+    ]
+  },
+  "sectors": {
+    "eyebrow": "02 — Sectoren",
+    "title": "Een partner voor wie gebouwen beheert.",
+    "lead": "We werken voor professionals die een betrouwbare, reactieve en in orde zijnde dienstverlener nodig hebben.",
+    "items": [
+      {
+        "title": "Syndici en mede-eigendommen",
+        "desc": "Gevels, inkomhallen, binnenplaatsen en parkings van gebouwen. Heldere offerte voor de algemene vergadering."
+      },
+      {
+        "title": "Beheerders en facility managers",
+        "desc": "Eén dienstverlener voor het buitenonderhoud van meerdere sites, gepland volgens uw beperkingen."
+      },
+      {
+        "title": "Gemeenten en overheden",
+        "desc": "Graffiti, straatmeubilair, openbare gebouwen en wegen, ook bij dringende interventies."
+      },
+      {
+        "title": "Bedrijven en industriële sites",
+        "desc": "Werkplaatsen, magazijnen, kades en omgeving gereinigd zonder uw productie stil te leggen."
+      },
+      {
+        "title": "Projectontwikkelaars en bouw",
+        "desc": "Eindreiniging van werven en herstel vóór oplevering of verkoop."
+      },
+      {
+        "title": "Handel en retail",
+        "desc": "Etalages, gevels en winkelpuien onberispelijk: de eerste indruk voor uw klanten."
+      }
+    ]
+  },
+  "method": {
+    "eyebrow": "03 — Werkwijze",
+    "title": "Een beheerste werf, van aanvraag tot rapport.",
+    "items": [
+      {
+        "title": "Aanvraag",
+        "desc": "U beschrijft uw behoefte via het formulier of telefonisch. We reageren snel."
+      },
+      {
+        "title": "Bezoek en diagnose",
+        "desc": "We beoordelen de ondergrond, de oppervlakte, de toegang en de beperkingen van de site."
+      },
+      {
+        "title": "Gedetailleerde offerte",
+        "desc": "Een duidelijke offerte, post per post, zonder verrassingen op de factuur."
+      },
+      {
+        "title": "Geplande interventie",
+        "desc": "Uren aangepast aan uw activiteit: overdag, 's avonds of in het weekend."
+      },
+      {
+        "title": "Fotorapport",
+        "desc": "Na de werf ontvangt u een interventierapport met foto's voor en na."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "04 — Engagementen",
+    "title": "Wat u van ons mag verwachten.",
+    "items": [
+      {
+        "title": "VCA certified",
+        "desc": "Veiligheid en risicopreventie op elke werf."
+      },
+      {
+        "title": "Beroepsaansprakelijkheid",
+        "desc": "U werkt met een verzekerd bedrijf dat in orde is."
+      },
+      {
+        "title": "Ecologische producten",
+        "desc": "Biologisch afbreekbare producten, zonder schade aan uw oppervlakken of het milieu."
+      },
+      {
+        "title": "Rapport bij elke werf",
+        "desc": "Foto's voor en na, volledige traceerbaarheid van de interventie."
+      },
+      {
+        "title": "Eigen teams en materieel",
+        "desc": "5 medewerkers, 4 bestelwagens en 4 Dibo-machines om snel te plannen en deadlines te halen."
+      },
+      {
+        "title": "Jarenlange ervaring",
+        "desc": "Terreinexpertise op alle soorten ondergronden en vervuiling."
+      }
+    ]
   },
   "emergency": {
-    "badge": "24/7 Noodinterventie",
-    "title": "Industriële Noodsituatie?",
-    "titleHighlight": "Wij Zijn Nu Klaar",
-    "description": "Kritiek olielek? Productiestop door besmetting? Brand- of waterschade die onmiddellijke reiniging vereist? Onze VCA gecertificeerde noodteams reageren onmiddellijk met professionele apparatuur om uw downtime en verliezen te minimaliseren.",
-    "feature1": "Onmiddellijke inzet • VCA gecertificeerde teams",
-    "feature2": "Professionele autonome apparatuur",
-    "cta": "BEL NOODLIJN",
-    "ctaSubtext": "+32 483 50 12 55 • Beschikbaar 24/7/365"
-  },
-  "about": {
-    "badge": "VCA Gecertificeerd Bedrijf",
-    "title": "Uw Vertrouwde Partner voor Industriële Hygiëne Excellentie",
-    "description1": "Goboclean is een VCA gecertificeerd Belgisch bedrijf gespecialiseerd in professionele industriële reiniging en onderhoudsdiensten. We begrijpen dat industriële reinheid cruciaal is voor veiligheid, naleving en productiviteit. Onze certificering garandeert de hoogste veiligheids- en kwaliteitsnormen.",
-    "description2": "Onze gecertificeerde teams gebruiken ultramoderne warmwater hogedruk apparatuur en milieuvriendelijk goedgekeurde producten. Of u nu regelmatig onderhoud of een noodinterventie nodig heeft, wij leveren onberispelijke resultaten met respect voor milieuregelgeving en arbeidsveiligheidseisen.",
-    "statYears": "Jaar bewezen expertise",
-    "feature1Title": "VCA Gecertificeerd",
-    "feature1Description": "Officiële veiligheidscertificering voor industriële werkomgevingen.",
-    "feature2Title": "Geavanceerde Technologie",
-    "feature2Description": "Industriële warmwater hogedruk apparatuur voor superieure resultaten.",
-    "feature3Title": "Veiligheid Eerst",
-    "feature3Description": "Gecertificeerd personeel getraind in industriële risicopreventie.",
-    "feature4Title": "24/7 Beschikbaarheid",
-    "feature4Description": "Noodinterventie teams klaar dag, nacht en weekenden."
+    "eyebrow": "Spoedinterventie",
+    "title": "Een probleem kondigt zich niet aan. Wij antwoorden 24/7.",
+    "lead": "Beledigende graffiti op een gevel, een olielek op een site, vervuiling vóór een evenement: onze teams komen dag en nacht tussen, ook in het weekend en op feestdagen, overal in België.",
+    "cta": "Bel de spoedlijn",
+    "note": "Bereikbaar 24/7 · 7 dagen op 7"
   },
   "contact": {
-    "badge": "Vraag Uw Gratis Offerte",
-    "title": "Professionele Industriële Reinigingsdiensten",
-    "infoTitle": "Contactinformatie",
-    "phone": "Telefoon",
-    "phoneNumber": "+32 483 50 12 55",
-    "phoneAvailable": "Beschikbaar 24/7 voor Noodgevallen",
-    "email": "E-mail",
-    "emailAddress": "info@goboclean.be",
-    "location": "Kantooradres",
-    "locationAddress": "J. Wielemansstraat 42",
-    "locationCity": "1652 Beersel, België",
-    "vat": "BTW Nummer",
-    "vatNumber": "BE 0799.936.135",
-    "infoFooter": "VCA gecertificeerde teams die heel België bedienen voor uw industriële reinigingsbehoeften.",
-    "formName": "Volledige Naam",
-    "formNamePlaceholder": "Uw volledige naam",
-    "formCompany": "Bedrijfsnaam",
-    "formCompanyPlaceholder": "Uw bedrijf",
-    "formEmail": "Professioneel E-mailadres",
-    "formEmailPlaceholder": "uw.email@bedrijf.be",
-    "formPhone": "Telefoonnummer",
-    "formPhonePlaceholder": "+32 4XX XX XX XX",
-    "formService": "Vereiste Dienst",
-    "formServiceOption1": "Industriële Vloerreiniging",
-    "formServiceOption2": "Productiegebied Reiniging",
-    "formServiceOption3": "Noodgeval / Olielek Interventie",
-    "formServiceOption4": "Magazijn & Logistiek Reiniging",
-    "formServiceOption5": "Andere Dienst",
-    "formMessage": "Projectdetails",
-    "formMessagePlaceholder": "Beschrijf uw behoeften: oppervlakte, type vervuiling, vereiste frequentie, specifieke beperkingen...",
-    "formSubmit": "Vraag Gratis Offerte Aan"
+    "eyebrow": "05 — Contact",
+    "title": "Laten we over uw site praten.",
+    "lead": "Beschrijf uw behoefte: we komen bij u terug met een duidelijk voorstel.",
+    "phoneLabel": "Telefoon · 24/7",
+    "emailLabel": "E-mail",
+    "addressLabel": "Adres",
+    "vatLabel": "Btw",
+    "zone": "Interventies in heel België",
+    "form": {
+      "name": "Naam en voornaam",
+      "company": "Bedrijf / organisatie",
+      "email": "Professioneel e-mailadres",
+      "phone": "Telefoon",
+      "service": "Gewenste dienst",
+      "message": "Uw aanvraag",
+      "messagePlaceholder": "Type gebouw, geschatte oppervlakte, adres van de site, gewenste timing…",
+      "submit": "Aanvraag versturen",
+      "sending": "Versturen…",
+      "success": "Bedankt! Uw aanvraag is verzonden. We nemen snel contact met u op.",
+      "error": "Verzenden mislukt. Probeer opnieuw of bel ons op +32 483 50 12 55.",
+      "required": "Verplichte velden",
+      "options": {
+        "facades": "Gevelreiniging",
+        "graffiti": "Graffitiverwijdering",
+        "moss": "Ontmossing van muren en vloeren",
+        "stains": "Vlekverwijdering en vloerreiniging",
+        "paint": "Herschilderen",
+        "industrial": "Industriële reiniging",
+        "emergency": "Spoed",
+        "other": "Andere"
+      }
+    }
   },
   "footer": {
-    "description": "Goboclean - VCA gecertificeerd industrieel reinigingsbedrijf in België. Professionele hogedruk reiniging, decontaminatie en 24/7 nooddiensten voor industriële faciliteiten.",
-    "quickLinks": "Snelle Links",
-    "home": "Home",
-    "about": "Over Ons",
-    "services": "Onze Diensten",
-    "quote": "Offerte Aanvragen",
-    "servicesTitle": "Onze Diensten",
-    "serviceFloors": "Vloerontvetting",
-    "serviceProduction": "Productie Reiniging",
-    "serviceSpills": "Noodinterventie",
-    "serviceDocks": "Laadperron Reiniging",
-    "contactTitle": "Contact",
-    "contactPhone": "+32 483 50 12 55",
-    "contactEmail": "info@goboclean.be",
-    "contactAddress": "J. Wielemansstraat 42, 1652 Beersel",
-    "contactVat": "BTW: BE 0799.936.135",
-    "legalTitle": "Juridisch",
-    "legalTerms": "Gebruiksvoorwaarden",
-    "legalPrivacy": "Privacybeleid",
-    "legalCGV": "Algemene Voorwaarden",
-    "copyright": "© 2026 Goboclean. Alle rechten voorbehouden. VCA Gecertificeerd Bedrijf.",
-    "status": "24/7 Nooddienst Beschikbaar"
+    "tagline": "Reiniging van gevels, graffiti en industriële sites voor professionals. VCA certified · 24/7 · Heel België.",
+    "services": "Diensten",
+    "company": "Bedrijf",
+    "rights": "Alle rechten voorbehouden."
   }
 }

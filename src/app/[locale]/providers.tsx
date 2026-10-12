@@ -1,11 +1,8 @@
 "use client";
 
 import { NextIntlClientProvider } from "next-intl";
-import { ThemeProvider } from "next-themes";
 import React, { JSX, ReactNode } from "react";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
-// Manually import messages for each locale
 import enMessages from "../../../messages/en.json";
 import frMessages from "../../../messages/fr.json";
 import nlMessages from "../../../messages/nl.json";
@@ -15,33 +12,21 @@ type Props = {
   locale: string;
 };
 
-const queryClient = new QueryClient();
-
-// Function to select the correct messages based on the locale
 function selectMessages(locale: string) {
   switch (locale) {
     case "nl":
       return nlMessages;
     case "fr":
       return frMessages;
-    // ... add cases for other locales as needed
     default:
-      return enMessages; // Default to English messages
+      return enMessages;
   }
 }
 
 export default function Providers({ children, locale }: Props): JSX.Element {
-  // const messages = useMessages();
-  const timeZone = "Europe/Brussels";
-  const messages = selectMessages(locale);
-
   return (
-    <QueryClientProvider client={queryClient}>
-      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-        <NextIntlClientProvider locale={locale} messages={messages} timeZone={timeZone}>
-          {children}
-        </NextIntlClientProvider>
-      </ThemeProvider>
-    </QueryClientProvider>
+    <NextIntlClientProvider locale={locale} messages={selectMessages(locale)} timeZone="Europe/Brussels">
+      {children}
+    </NextIntlClientProvider>
   );
 }

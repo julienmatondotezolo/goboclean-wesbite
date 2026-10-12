@@ -1,190 +1,146 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { Menu, X, Phone, Hexagon } from 'lucide-react';
-import { useTranslations, useLocale } from 'next-intl';
-import { usePathname, useRouter } from "@/i18n/routing";
-import { useTransition } from 'react';
-import GB from 'country-flag-icons/react/3x2/GB';
-import FR from 'country-flag-icons/react/3x2/FR';
-import NL from 'country-flag-icons/react/3x2/NL';
+import React, { useEffect, useState, useTransition } from 'react';
+import { Menu, Phone, X } from 'lucide-react';
+import { useLocale, useTranslations } from 'next-intl';
+import { usePathname, useRouter } from '@/i18n/routing';
+import { COMPANY } from '@/lib/company';
+import { cn } from '@/lib/utils';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { Brand } from './primitives';
 
-const languages = [
-  { code: "nl", label: "Nederlands", Flag: NL },
-  { code: "fr", label: "Français", Flag: FR },
-  { code: "en", label: "English", Flag: GB },
-] as const;
+const LOCALES = ['fr', 'nl', 'en'] as const;
 
-const Navbar: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [isLangOpen, setIsLangOpen] = useState(false);
-  const t = useTranslations('navbar');
+export function Navbar() {
+  const t = useTranslations('nav');
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
-  const [isPending, startTransition] = useTransition();
-
-  const currentLanguage = languages.find((lang) => lang.code === locale) || languages[0];
-
-  const handleLanguageChange = (newLocale: string) => {
-    if (newLocale === locale) return;
-    
-    setIsLangOpen(false);
-    startTransition(() => {
-      router.replace(pathname, { locale: newLocale });
-    });
-  };
+  const [, startTransition] = useTransition();
+  const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    const onScroll = () => setScrolled(window.scrollY > 24);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // Close language dropdown when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      const target = event.target as HTMLElement;
-      if (!target.closest('.mobile-lang-switcher')) {
-        setIsLangOpen(false);
-      }
-    };
-
-    if (isLangOpen) {
-      document.addEventListener('mousedown', handleClickOutside);
-      return () => document.removeEventListener('mousedown', handleClickOutside);
-    }
-  }, [isLangOpen]);
-
-  const navLinks = [
-    { name: t('services'), href: '#services' },
-    { name: t('about'), href: '#about' },
-    { name: t('emergency'), href: '#emergency' },
-    { name: t('contact'), href: '#contact' },
+  const links = [
+    { href: '#services', label: t('services') },
+    { href: '#sectors', label: t('sectors') },
+    { href: '#method', label: t('method') },
+    { href: '#why', label: t('why') },
+    { href: '#contact', label: t('contact') },
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-gobo-dark/95 backdrop-blur-md py-4 shadow-lg' : 'bg-transparent py-6'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center">
-          <div className="flex items-center">
-            <a href="#" className="flex items-center gap-2 group">
-              <div className="relative">
-                <Hexagon className="h-10 w-10 text-gobo-neon fill-gobo-dark group-hover:rotate-90 transition-transform duration-500" strokeWidth={2.5} />
-                <span className="absolute inset-0 flex items-center justify-center font-bold text-gobo-neon text-lg">G</span>
-              </div>
-              <span className="text-2xl font-bold text-white tracking-tight">
-                GoBo<span className="text-gobo-neon">clean</span>
-              </span>
-            </a>
-          </div>
+    <header
+      className={cn(
+        'fixed inset-x-0 top-0 z-50 transition-all duration-300',
+        scrolled || open ? 'bg-forest/95 py-3 shadow-[0_1px_0_rgb(163_230_53/0.15)] backdrop-blur-md' : 'py-5'
+      )}
+    >
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+        <a href="#top" aria-label="GoboClean">
+          <Brand />
+        </a>
 
-          {/* Desktop Nav */}
-          <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-gray-300 hover:text-gobo-neon transition-colors font-medium text-sm uppercase tracking-wide"
-              >
-                {link.name}
-              </a>
-            ))}
-            <LanguageSwitcher />
+        <nav className="hidden items-center gap-7 lg:flex">
+          {links.map((l) => (
             <a
-              href="#contact"
-              className="bg-gobo-neon text-gobo-dark px-6 py-2.5 rounded-full font-bold hover:bg-white hover:text-gobo-dark transition-all duration-300 flex items-center gap-2"
+              key={l.href}
+              href={l.href}
+              className="text-sm font-medium text-white/75 transition-colors hover:text-lime"
             >
-              <Phone size={18} />
-              <span>{t('quote')}</span>
-            </a>
-          </div>
-
-          {/* Mobile Buttons */}
-          <div className="md:hidden flex items-center gap-3">
-            {/* Mobile Language Switcher - Flag Only */}
-            <div className="relative mobile-lang-switcher">
-              <button
-                onClick={() => setIsLangOpen(!isLangOpen)}
-                disabled={isPending}
-                className={`flex items-center justify-center w-10 h-10 rounded-lg border border-gray-700/50 
-                  hover:border-gobo-neon/50 transition-all duration-200 ${isPending ? 'opacity-50' : ''}`}
-                aria-label="Select language"
-              >
-                <currentLanguage.Flag className="w-6 h-4 rounded-sm" />
-              </button>
-
-              {/* Mobile Language Dropdown */}
-              {isLangOpen && (
-                <div className="absolute right-0 mt-2 w-36 bg-gobo-dark border border-gray-700/50 rounded-lg shadow-xl overflow-hidden z-50">
-                  {languages.map((lang) => {
-                    const FlagIcon = lang.Flag;
-                    const isActive = lang.code === locale;
-                    
-                    return (
-                      <button
-                        key={lang.code}
-                        onClick={() => handleLanguageChange(lang.code)}
-                        disabled={isPending || isActive}
-                        className={`w-full flex items-center gap-3 px-4 py-3 text-sm font-medium transition-all duration-150
-                          ${isActive 
-                            ? 'bg-gobo-neon/10 text-gobo-neon cursor-default' 
-                            : 'text-gray-300 hover:bg-gobo-medium/30 hover:text-gobo-neon cursor-pointer'
-                          }
-                          ${isPending ? 'opacity-50' : ''}
-                          border-b border-gray-800/30 last:border-b-0`}
-                      >
-                        <FlagIcon className="w-6 h-4 rounded-sm flex-shrink-0" />
-                        <span className="flex-1 text-left text-xs">{lang.label}</span>
-                        {isActive && (
-                          <span className="text-gobo-neon text-xs">✓</span>
-                        )}
-                      </button>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-
-            {/* Hamburger Menu */}
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-white hover:text-gobo-neon focus:outline-none"
-            >
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Mobile Menu */}
-      <div className={`md:hidden absolute w-full bg-gobo-dark border-t border-gray-800 transition-all duration-300 ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
-        <div className="px-4 pt-2 pb-8 space-y-2">
-          {navLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              onClick={() => setIsOpen(false)}
-              className="block px-3 py-3 text-base font-medium text-gray-300 hover:text-white hover:bg-gobo-medium rounded-md"
-            >
-              {link.name}
+              {l.label}
             </a>
           ))}
+        </nav>
+
+        <div className="hidden items-center gap-3 lg:flex">
+          <a
+            href={COMPANY.phoneHref}
+            className="flex items-center gap-2 rounded-full border border-lime/40 px-4 py-2 font-mono text-xs text-lime transition-colors hover:bg-lime hover:text-ink"
+          >
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-lime opacity-70" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-lime" />
+            </span>
+            24/7 · {COMPANY.phone}
+          </a>
+          <LanguageSwitcher />
           <a
             href="#contact"
-            onClick={() => setIsOpen(false)}
-            className="block w-full text-center mt-4 bg-gobo-neon text-gobo-dark px-6 py-3 rounded-lg font-bold"
+            className="rounded-full bg-lime px-5 py-2.5 text-sm font-bold text-ink transition-colors hover:bg-white"
           >
             {t('quote')}
           </a>
         </div>
-      </div>
-    </nav>
-  );
-};
 
-export { Navbar };
+        <button
+          onClick={() => setOpen((o) => !o)}
+          className="text-white lg:hidden"
+          aria-label={t('menu')}
+          aria-expanded={open}
+        >
+          {open ? <X size={28} /> : <Menu size={28} />}
+        </button>
+      </div>
+
+      {/* Menu mobile */}
+      <div
+        className={cn(
+          'overflow-hidden transition-[max-height,opacity] duration-300 lg:hidden',
+          open ? 'max-h-[560px] opacity-100' : 'max-h-0 opacity-0'
+        )}
+      >
+        <div className="mx-auto max-w-7xl space-y-1 px-4 pb-6 pt-4 sm:px-6">
+          {links.map((l) => (
+            <a
+              key={l.href}
+              href={l.href}
+              onClick={() => setOpen(false)}
+              className="block border-b border-white/10 py-3 text-lg font-semibold text-white"
+            >
+              {l.label}
+            </a>
+          ))}
+          <div className="flex gap-2 pt-4">
+            {LOCALES.map((code) => (
+              <button
+                key={code}
+                onClick={() => {
+                  setOpen(false);
+                  startTransition(() => router.replace(pathname, { locale: code }));
+                }}
+                className={cn(
+                  'rounded-full border px-4 py-1.5 font-mono text-xs uppercase',
+                  code === locale ? 'border-lime bg-lime text-ink' : 'border-white/25 text-white/80'
+                )}
+              >
+                {code}
+              </button>
+            ))}
+          </div>
+          <div className="grid grid-cols-2 gap-3 pt-4">
+            <a
+              href={COMPANY.phoneHref}
+              className="flex items-center justify-center gap-2 rounded-full border border-lime/50 py-3 text-sm font-bold text-lime"
+            >
+              <Phone size={16} /> {t('emergency')}
+            </a>
+            <a
+              href="#contact"
+              onClick={() => setOpen(false)}
+              className="rounded-full bg-lime py-3 text-center text-sm font-bold text-ink"
+            >
+              {t('quote')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+}

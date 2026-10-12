@@ -1,135 +1,238 @@
 {
   "metadata": {
-    "title": "Goboclean | Services de Nettoyage Industriel Certifiés VCA Belgique",
-    "description": "Entreprise de nettoyage industriel certifiée VCA en Belgique. Services professionnels avec assistance d'urgence 24/7. Sols industriels, zones de production, nettoyage de fuites d'huile. Appelez +32 483 50 12 55"
+    "title": "GoboClean | Nettoyage de façades, graffitis et sites industriels en Belgique — VCA certified",
+    "description": "Nettoyage de façades, enlèvement de graffitis, démoussage, détachage de sols, remise en peinture et nettoyage industriel pour syndics, communes et entreprises. Équipes VCA certified, produits biodégradables, urgences 24h/24 et 7j/7 dans toute la Belgique."
   },
-  "navbar": {
+  "nav": {
     "services": "Services",
-    "about": "À Propos",
-    "emergency": "Urgences 24/7",
+    "sectors": "Secteurs",
+    "method": "Méthode",
+    "why": "Engagements",
     "contact": "Contact",
-    "quote": "Devis Gratuit"
+    "quote": "Demander un devis",
+    "emergency": "Urgence 24/7",
+    "menu": "Menu"
   },
   "hero": {
-    "badge": "Certifié VCA • Service d'Urgence 24/7",
-    "title": "Solutions Professionnelles",
-    "titleHighlight": "de Nettoyage Industriel",
-    "description": "Votre partenaire certifié VCA de confiance en Belgique pour les services de nettoyage industriel. Spécialisés dans le nettoyage haute pression, la décontamination et les interventions d'urgence. Au service des usines, entrepôts et installations industrielles dans toute la Belgique avec conformité de sécurité garantie.",
-    "descriptionMobile": "Nettoyage industriel professionnel certifié VCA. Service d'urgence disponible 24/7.",
-    "ctaPrimary": "Demander une Intervention",
-    "ctaSecondary": "Voir Nos Services",
-    "stat1Label": "Certifié VCA",
-    "stat2Label": "Disponible 24/7"
+    "eyebrow": "Nettoyage technique B2B · Belgique",
+    "title1": "Façades, graffitis,",
+    "title2": "sites industriels.",
+    "titleHighlight": "Remis à neuf.",
+    "lead": "GoboClean nettoie et remet en état les bâtiments et les sites des syndics, gestionnaires d'immeubles, communes et entreprises. Équipes VCA certified, matériel haute pression, intervention 24h/24 et 7j/7 dans toute la Belgique.",
+    "ctaQuote": "Demander un devis",
+    "ctaCall": "Appeler maintenant",
+    "badgeVca": "VCA certified",
+    "badge24": "Urgences 24/7",
+    "badgeBe": "Toute la Belgique",
+    "badgeEco": "Produits biodégradables",
+    "visualLabel": "Façade en cours de nettoyage"
+  },
+  "figures": {
+    "agents": "agents de terrain",
+    "vans": "camionnettes équipées",
+    "machines": "machines haute pression Dibo",
+    "availability": "urgences, week-ends et jours fériés compris",
+    "note": "Nos propres équipes, notre propre matériel : nous planifions vite et nous tenons les délais."
   },
   "services": {
-    "badge": "Services Certifiés VCA",
-    "title": "Nettoyage et Maintenance Industriels Complets",
-    "description": "Solutions de nettoyage professionnelles garanties par la certification VCA. Nous fournissons des services d'hygiène industrielle experts avec équipements de pointe et protocoles de sécurité certifiés pour une efficacité maximale.",
-    "floors": {
-      "title": "Nettoyage et Dégraissage de Sols Industriels",
-      "description": "Nettoyage haute pression pour sols d'usine, parkings souterrains et surfaces industrielles. Élimination complète des graisses, huiles, traces de gomme et contaminants tenaces. Conformité VCA garantie."
-    },
-    "production": {
-      "title": "Décontamination des Zones de Production",
-      "description": "Nettoyage et désinfection professionnels des lignes de production, machines et environnements de fabrication sensibles. Maintenez la productivité avec un temps d'arrêt minimal et une conformité totale."
-    },
-    "spills": {
-      "title": "Intervention d'Urgence Fuites d'Huile",
-      "description": "Intervention rapide 24/7 pour déversements d'huile et de produits chimiques. Confinement immédiat, nettoyage et élimination sûre des matières dangereuses. Minimisez les pertes de production avec nos équipes d'intervention d'urgence."
-    },
-    "concrete": {
-      "title": "Restauration Béton et Surfaces",
-      "description": "Rénovation professionnelle de surfaces en béton, dallages industriels et sols d'ateliers. Décapage haute pression et traitement de protection pour des résultats durables."
-    },
-    "logistics": {
-      "title": "Nettoyage d'Entrepôts et Logistique",
-      "description": "Solutions de nettoyage complètes pour entrepôts, centres de distribution et installations de stockage. Dépoussiérage des structures, lavage des sols et maintenance complète de l'hygiène."
-    },
-    "docks": {
-      "title": "Maintenance des Quais de Chargement",
-      "description": "Nettoyage régulier et d'urgence des quais de chargement, zones de fret et zones logistiques. Assurez des opérations quotidiennes sûres et la conformité aux normes de sécurité au travail."
-    }
+    "eyebrow": "01 — Services",
+    "title": "Tout ce qui se nettoie à l'extérieur d'un bâtiment.",
+    "lead": "Du simple entretien au chantier difficile, nous adaptons la méthode, la pression et le produit à chaque support.",
+    "items": [
+      {
+        "key": "facades",
+        "title": "Nettoyage de façades",
+        "desc": "Pierre, brique, crépi, béton ou bardage : nous rendons à vos bâtiments leur aspect d'origine et valorisons votre patrimoine.",
+        "points": [
+          "Immeubles, bureaux, commerces",
+          "Pression et produit adaptés au support",
+          "Chantier balisé et sécurisé"
+        ]
+      },
+      {
+        "key": "graffiti",
+        "title": "Enlèvement de graffitis",
+        "desc": "Tags, graffitis et affichage sauvage retirés sur tous les supports, sans abîmer le matériau. Une façade propre, c'est une image de marque protégée.",
+        "points": [
+          "Pierre, brique, métal, vitrage",
+          "Intervention rapide, même en urgence",
+          "Résultat documenté en photos"
+        ]
+      },
+      {
+        "key": "moss",
+        "title": "Démoussage murs et sols",
+        "desc": "Mousses, lichens, algues et traces vertes éliminés sur murs, terrasses, cours, allées et parkings, avec des produits biodégradables.",
+        "points": [
+          "Traitement curatif en profondeur",
+          "Hydrofuge de protection en option",
+          "Sols moins glissants, plus sûrs"
+        ]
+      },
+      {
+        "key": "stains",
+        "title": "Détachage et nettoyage de sols",
+        "desc": "Huile, graisse, gomme, rouille, traces de pneus : parkings, trottoirs, pavés, dalles et accès retrouvent un aspect net.",
+        "points": [
+          "Parkings et zones de circulation",
+          "Pavés, dalles, béton",
+          "Taches anciennes et incrustées"
+        ]
+      },
+      {
+        "key": "paint",
+        "title": "Remise en peinture",
+        "desc": "Après nettoyage, nous remettons en peinture façades, murs et surfaces extérieures pour un résultat net et durable.",
+        "points": [
+          "Préparation complète du support",
+          "Teintes au choix",
+          "Finition soignée et durable"
+        ]
+      },
+      {
+        "key": "industrial",
+        "title": "Nettoyage industriel",
+        "desc": "Sols d'ateliers et d'entrepôts, quais de chargement, flaques et fuites d'huile : un nettoyage haute pression qui limite l'arrêt de votre activité.",
+        "points": [
+          "Dégraissage haute pression",
+          "Interventions hors heures de production",
+          "Fuites d'huile traitées en urgence"
+        ]
+      }
+    ]
+  },
+  "sectors": {
+    "eyebrow": "02 — Secteurs",
+    "title": "Un partenaire pour ceux qui gèrent des bâtiments.",
+    "lead": "Nous travaillons pour les professionnels qui ont besoin d'un prestataire fiable, réactif et en règle.",
+    "items": [
+      {
+        "title": "Syndics et copropriétés",
+        "desc": "Façades, halls d'entrée, cours et parkings d'immeubles. Devis clair pour l'assemblée générale."
+      },
+      {
+        "title": "Gestionnaires et facility managers",
+        "desc": "Un prestataire unique pour l'entretien extérieur de plusieurs sites, planifié selon vos contraintes."
+      },
+      {
+        "title": "Communes et pouvoirs publics",
+        "desc": "Graffitis, mobilier urbain, bâtiments publics et voiries, y compris en intervention urgente."
+      },
+      {
+        "title": "Entreprises et sites industriels",
+        "desc": "Ateliers, entrepôts, quais et abords de site, nettoyés sans bloquer votre production."
+      },
+      {
+        "title": "Promoteurs et construction",
+        "desc": "Nettoyage de fin de chantier et remise en état avant réception ou mise en vente."
+      },
+      {
+        "title": "Commerces et retail",
+        "desc": "Vitrines, façades et devantures impeccables : la première impression de vos clients."
+      }
+    ]
+  },
+  "method": {
+    "eyebrow": "03 — Méthode",
+    "title": "Un chantier maîtrisé, de la demande au rapport.",
+    "items": [
+      {
+        "title": "Demande",
+        "desc": "Vous nous décrivez le besoin par formulaire ou par téléphone. Nous répondons rapidement."
+      },
+      {
+        "title": "Visite et diagnostic",
+        "desc": "Nous évaluons le support, la surface, les accès et les contraintes du site."
+      },
+      {
+        "title": "Devis détaillé",
+        "desc": "Une offre claire, poste par poste, sans surprise à la facturation."
+      },
+      {
+        "title": "Intervention planifiée",
+        "desc": "Horaires adaptés à votre activité : en journée, en soirée ou le week-end."
+      },
+      {
+        "title": "Rapport photo",
+        "desc": "À la fin du chantier, vous recevez un rapport d'intervention avec photos avant et après."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "04 — Engagements",
+    "title": "Ce que vous pouvez exiger de nous.",
+    "items": [
+      {
+        "title": "VCA certified",
+        "desc": "Sécurité et prévention des risques intégrées à chaque chantier."
+      },
+      {
+        "title": "Assurance RC professionnelle",
+        "desc": "Vous travaillez avec une entreprise couverte et en règle."
+      },
+      {
+        "title": "Produits écologiques",
+        "desc": "Produits biodégradables, sans dégâts pour vos surfaces ni pour l'environnement."
+      },
+      {
+        "title": "Rapport à chaque chantier",
+        "desc": "Photos avant et après, traçabilité complète de l'intervention."
+      },
+      {
+        "title": "Équipes et matériel propres",
+        "desc": "5 agents, 4 camionnettes et 4 machines Dibo pour planifier vite et tenir les délais."
+      },
+      {
+        "title": "Plusieurs années d'expérience",
+        "desc": "Une expertise terrain sur tous les types de supports et de salissures."
+      }
+    ]
   },
   "emergency": {
-    "badge": "Intervention d'Urgence 24/7",
-    "title": "Urgence Industrielle ?",
-    "titleHighlight": "Nous Sommes Prêts",
-    "description": "Fuite d'huile critique ? Arrêt de production dû à une contamination ? Dégâts d'incendie ou d'inondation nécessitant un nettoyage immédiat ? Nos équipes d'urgence certifiées VCA interviennent immédiatement avec équipements professionnels pour minimiser vos temps d'arrêt et pertes.",
-    "feature1": "Déploiement immédiat • Équipes certifiées VCA",
-    "feature2": "Équipement professionnel autonome",
-    "cta": "APPELER LIGNE D'URGENCE",
-    "ctaSubtext": "+32 483 50 12 55 • Disponible 24/7/365"
-  },
-  "about": {
-    "badge": "Entreprise Certifiée VCA",
-    "title": "Votre Partenaire de Confiance pour l'Excellence en Hygiène Industrielle",
-    "description1": "Goboclean est une entreprise belge certifiée VCA spécialisée dans les services professionnels de nettoyage et maintenance industriels. Nous comprenons que la propreté industrielle est essentielle pour la sécurité, la conformité et la productivité. Notre certification garantit les normes de sécurité et de qualité les plus élevées.",
-    "description2": "Nos équipes certifiées utilisent des équipements haute pression eau chaude de pointe et des produits approuvés écologiquement. Que vous ayez besoin d'un entretien régulier ou d'une intervention d'urgence, nous offrons des résultats impeccables tout en respectant les réglementations environnementales et les exigences de sécurité au travail.",
-    "statYears": "Années d'expertise éprouvée",
-    "feature1Title": "Certifié VCA",
-    "feature1Description": "Certification officielle de sécurité pour environnements de travail industriels.",
-    "feature2Title": "Technologie Avancée",
-    "feature2Description": "Équipement industriel haute pression eau chaude pour résultats supérieurs.",
-    "feature3Title": "Sécurité d'Abord",
-    "feature3Description": "Personnel certifié formé à la prévention des risques industriels.",
-    "feature4Title": "Disponibilité 24/7",
-    "feature4Description": "Équipes d'intervention d'urgence prêtes jour, nuit et week-ends."
+    "eyebrow": "Intervention d'urgence",
+    "title": "Un problème ne prévient pas. Nous répondons 24h/24.",
+    "lead": "Graffiti injurieux sur une façade, fuite d'huile sur un site, souillure avant un événement : nos équipes interviennent jour et nuit, week-ends et jours fériés compris, partout en Belgique.",
+    "cta": "Appeler la ligne d'urgence",
+    "note": "Disponible 24h/24 · 7j/7"
   },
   "contact": {
-    "badge": "Obtenez Votre Devis Gratuit",
-    "title": "Services Professionnels de Nettoyage Industriel",
-    "infoTitle": "Coordonnées",
-    "phone": "Téléphone",
-    "phoneNumber": "+32 483 50 12 55",
-    "phoneAvailable": "Disponible 24/7 pour Urgences",
-    "email": "Email",
-    "emailAddress": "info@goboclean.be",
-    "location": "Adresse du Bureau",
-    "locationAddress": "J. Wielemansstraat 42",
-    "locationCity": "1652 Beersel, Belgique",
-    "vat": "Numéro TVA",
-    "vatNumber": "BE 0799.936.135",
-    "infoFooter": "Équipes certifiées VCA au service de toute la Belgique pour vos besoins en nettoyage industriel.",
-    "formName": "Nom Complet",
-    "formNamePlaceholder": "Votre nom complet",
-    "formCompany": "Nom de l'Entreprise",
-    "formCompanyPlaceholder": "Votre entreprise",
-    "formEmail": "Email Professionnel",
-    "formEmailPlaceholder": "votre.email@entreprise.be",
-    "formPhone": "Numéro de Téléphone",
-    "formPhonePlaceholder": "+32 4XX XX XX XX",
-    "formService": "Service Requis",
-    "formServiceOption1": "Nettoyage Sols Industriels",
-    "formServiceOption2": "Nettoyage Zone de Production",
-    "formServiceOption3": "Urgence / Intervention Fuite d'Huile",
-    "formServiceOption4": "Nettoyage Entrepôts & Logistique",
-    "formServiceOption5": "Autre Service",
-    "formMessage": "Détails du Projet",
-    "formMessagePlaceholder": "Veuillez décrire vos besoins : surface, type de contamination, fréquence requise, contraintes spécifiques...",
-    "formSubmit": "Demander un Devis Gratuit"
+    "eyebrow": "05 — Contact",
+    "title": "Parlons de votre site.",
+    "lead": "Décrivez-nous votre besoin : nous revenons vers vous avec une proposition claire.",
+    "phoneLabel": "Téléphone · 24/7",
+    "emailLabel": "Email",
+    "addressLabel": "Adresse",
+    "vatLabel": "TVA",
+    "zone": "Intervention dans toute la Belgique",
+    "form": {
+      "name": "Nom et prénom",
+      "company": "Société / organisation",
+      "email": "Email professionnel",
+      "phone": "Téléphone",
+      "service": "Service souhaité",
+      "message": "Votre demande",
+      "messagePlaceholder": "Type de bâtiment, surface approximative, adresse du site, délai souhaité…",
+      "submit": "Envoyer la demande",
+      "sending": "Envoi…",
+      "success": "Merci ! Votre demande a bien été envoyée. Nous revenons vers vous rapidement.",
+      "error": "L'envoi a échoué. Réessayez ou appelez-nous au +32 483 50 12 55.",
+      "required": "Champs obligatoires",
+      "options": {
+        "facades": "Nettoyage de façades",
+        "graffiti": "Enlèvement de graffitis",
+        "moss": "Démoussage murs et sols",
+        "stains": "Détachage et nettoyage de sols",
+        "paint": "Remise en peinture",
+        "industrial": "Nettoyage industriel",
+        "emergency": "Urgence",
+        "other": "Autre"
+      }
+    }
   },
   "footer": {
-    "description": "Goboclean - Entreprise de nettoyage industriel certifiée VCA en Belgique. Nettoyage haute pression professionnel, décontamination et services d'urgence 24/7 pour installations industrielles.",
-    "quickLinks": "Liens Rapides",
-    "home": "Accueil",
-    "about": "À Propos",
-    "services": "Nos Services",
-    "quote": "Demander un Devis",
-    "servicesTitle": "Nos Services",
-    "serviceFloors": "Dégraissage Sols",
-    "serviceProduction": "Nettoyage Production",
-    "serviceSpills": "Intervention d'Urgence",
-    "serviceDocks": "Nettoyage Quais",
-    "contactTitle": "Contact",
-    "contactPhone": "+32 483 50 12 55",
-    "contactEmail": "info@goboclean.be",
-    "contactAddress": "J. Wielemansstraat 42, 1652 Beersel",
-    "contactVat": "TVA: BE 0799.936.135",
-    "legalTitle": "Légal",
-    "legalTerms": "Conditions d'Utilisation",
-    "legalPrivacy": "Politique de Confidentialité",
-    "legalCGV": "Conditions Générales",
-    "copyright": "© 2026 Goboclean. Tous droits réservés. Entreprise Certifiée VCA.",
-    "status": "Service d'Urgence Disponible 24/7"
+    "tagline": "Nettoyage de façades, graffitis et sites industriels pour les professionnels. VCA certified · 24/7 · Toute la Belgique.",
+    "services": "Services",
+    "company": "Entreprise",
+    "rights": "Tous droits réservés."
   }
 }

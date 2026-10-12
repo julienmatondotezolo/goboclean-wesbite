@@ -53,16 +53,16 @@ const LanguageSwitcher: React.FC = () => {
       <button
         onClick={() => setIsOpen(!isOpen)}
         disabled={isPending}
-        className={`flex items-center gap-2 px-4 py-2 rounded-lg bg-gobo-medium/30 border border-gray-700/50 
-          hover:bg-gobo-medium/50 hover:border-gobo-neon/30 transition-all duration-200 
+        className={`flex items-center gap-2 px-3 py-2 rounded-full bg-moss/30 border border-gray-700/50 
+          hover:bg-moss/50 hover:border-lime/30 transition-all duration-200 
           ${isPending ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}
-          ${isOpen ? 'border-gobo-neon/50 bg-gobo-medium/50' : ''}`}
+          ${isOpen ? 'border-lime/50 bg-moss/50' : ''}`}
         aria-label="Select language"
         aria-expanded={isOpen}
       >
         <CurrentFlag className="w-6 h-4 rounded-sm shadow-sm" />
-        <span className="text-sm font-medium text-gray-200">
-          {currentLanguage.label}
+        <span className="font-mono text-xs font-medium text-gray-200">
+          {currentLanguage.shortLabel}
         </span>
         <ChevronDown 
           className={`w-4 h-4 text-gray-400 transition-transform duration-200 ${
@@ -73,7 +73,7 @@ const LanguageSwitcher: React.FC = () => {
 
       {/* Dropdown Menu */}
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-48 bg-gobo-dark border border-gray-700/50 rounded-lg shadow-xl overflow-hidden z-50 animate-in fade-in slide-in-from-top-2 duration-200">
+        <div className="absolute right-0 mt-2 w-48 bg-forest border border-gray-700/50 rounded-lg shadow-xl overflow-hidden z-50">
           {languages.map((lang) => {
             const FlagIcon = lang.Flag;
             const isActive = lang.code === locale;
@@ -85,8 +85,8 @@ const LanguageSwitcher: React.FC = () => {
                 disabled={isPending || isActive}
                 className={`w-full flex items-center gap-3 px-4 py-3 text-sm font-medium transition-all duration-150
                   ${isActive 
-                    ? 'bg-gobo-neon/10 text-gobo-neon cursor-default' 
-                    : 'text-gray-300 hover:bg-gobo-medium/30 hover:text-gobo-neon cursor-pointer'
+                    ? 'bg-lime/10 text-lime cursor-default' 
+                    : 'text-gray-300 hover:bg-moss/30 hover:text-lime cursor-pointer'
                   }
                   ${isPending ? 'opacity-50' : ''}
                   border-b border-gray-800/30 last:border-b-0`}
@@ -94,7 +94,7 @@ const LanguageSwitcher: React.FC = () => {
                 <FlagIcon className="w-6 h-4 rounded-sm shadow-sm flex-shrink-0" />
                 <span className="flex-1 text-left">{lang.label}</span>
                 {isActive && (
-                  <span className="text-gobo-neon text-xs">✓</span>
+                  <span className="text-lime text-xs">✓</span>
                 )}
               </button>
             );

@@ -1,135 +1,238 @@
 {
   "metadata": {
-    "title": "Goboclean | VCA Certified Industrial Cleaning Services Belgium",
-    "description": "VCA certified industrial cleaning company in Belgium. Professional cleaning services with 24/7 emergency support. Industrial floors, production areas, and oil spill cleanup. Call +32 483 50 12 55"
+    "title": "GoboClean | Façade cleaning, graffiti removal and industrial cleaning in Belgium — VCA certified",
+    "description": "Façade cleaning, graffiti removal, moss removal, floor stain removal, repainting and industrial cleaning for property managers, municipalities and businesses. VCA certified teams, biodegradable products, 24/7 emergency service across Belgium."
   },
-  "navbar": {
+  "nav": {
     "services": "Services",
-    "about": "About",
-    "emergency": "24/7 Emergency",
+    "sectors": "Sectors",
+    "method": "Method",
+    "why": "Commitments",
     "contact": "Contact",
-    "quote": "Free Quote"
+    "quote": "Request a quote",
+    "emergency": "24/7 Emergency",
+    "menu": "Menu"
   },
   "hero": {
-    "badge": "VCA Certified • 24/7 Emergency Service",
-    "title": "Professional Industrial",
-    "titleHighlight": "Cleaning Solutions",
-    "description": "Belgium's trusted VCA certified partner for industrial cleaning services. Specialized in high-pressure cleaning, decontamination, and emergency interventions. Serving factories, warehouses, and industrial facilities across Belgium with guaranteed safety compliance.",
-    "descriptionMobile": "Professional VCA certified industrial cleaning. 24/7 emergency service available.",
-    "ctaPrimary": "Request Emergency Service",
-    "ctaSecondary": "View Our Services",
-    "stat1Label": "VCA Certified",
-    "stat2Label": "24/7 Available"
+    "eyebrow": "Technical B2B cleaning · Belgium",
+    "title1": "Façades, graffiti,",
+    "title2": "industrial sites.",
+    "titleHighlight": "Restored.",
+    "lead": "GoboClean cleans and restores buildings and sites for property managers, building owners' associations, municipalities and businesses. VCA certified teams, high-pressure equipment, 24/7 service across Belgium.",
+    "ctaQuote": "Request a quote",
+    "ctaCall": "Call now",
+    "badgeVca": "VCA certified",
+    "badge24": "24/7 emergencies",
+    "badgeBe": "All of Belgium",
+    "badgeEco": "Biodegradable products",
+    "visualLabel": "Façade being cleaned"
+  },
+  "figures": {
+    "agents": "field operatives",
+    "vans": "equipped vans",
+    "machines": "Dibo high-pressure machines",
+    "availability": "emergencies, weekends and holidays included",
+    "note": "Our own teams and our own equipment: we schedule fast and meet deadlines."
   },
   "services": {
-    "badge": "VCA Certified Services",
-    "title": "Complete Industrial Cleaning & Maintenance",
-    "description": "Professional cleaning solutions backed by VCA certification. We deliver expert industrial hygiene services with advanced equipment and certified safety protocols for maximum efficiency.",
-    "floors": {
-      "title": "Industrial Floor Cleaning & Degreasing",
-      "description": "High-pressure cleaning for factory floors, parking garages, and industrial surfaces. Complete removal of grease, oil, rubber marks, and stubborn contaminants. VCA safety compliance guaranteed."
-    },
-    "production": {
-      "title": "Production Area Decontamination",
-      "description": "Professional cleaning and disinfection of production lines, machinery, and sensitive manufacturing environments. Maintain productivity with minimal downtime and full compliance."
-    },
-    "spills": {
-      "title": "Emergency Oil Spill Response",
-      "description": "24/7 rapid response for oil and chemical spills. Immediate containment, cleanup, and safe disposal of hazardous materials. Minimize production loss with our emergency intervention teams."
-    },
-    "concrete": {
-      "title": "Concrete & Surface Restoration",
-      "description": "Professional renovation of concrete surfaces, industrial paving, and workshop floors. High-pressure stripping and protective treatment for lasting results."
-    },
-    "logistics": {
-      "title": "Warehouse & Logistics Cleaning",
-      "description": "Complete cleaning solutions for warehouses, distribution centers, and storage facilities. Structure dusting, floor washing, and comprehensive hygiene maintenance."
-    },
-    "docks": {
-      "title": "Loading Dock Maintenance",
-      "description": "Regular and emergency cleaning of loading docks, freight areas, and logistics zones. Ensure safe daily operations and compliance with workplace safety standards."
-    }
+    "eyebrow": "01 — Services",
+    "title": "Everything on the outside of a building that needs cleaning.",
+    "lead": "From routine upkeep to difficult jobs, we adapt the method, pressure and product to every surface.",
+    "items": [
+      {
+        "key": "facades",
+        "title": "Façade cleaning",
+        "desc": "Stone, brick, render, concrete or cladding: we restore your buildings' original look and protect the value of your property.",
+        "points": [
+          "Residential blocks, offices, shops",
+          "Pressure and product matched to the surface",
+          "Marked-off, secured work area"
+        ]
+      },
+      {
+        "key": "graffiti",
+        "title": "Graffiti removal",
+        "desc": "Tags, graffiti and fly-posting removed from any surface without damaging the material. A clean façade protects your brand image.",
+        "points": [
+          "Stone, brick, metal, glass",
+          "Fast response, even in emergencies",
+          "Result documented with photos"
+        ]
+      },
+      {
+        "key": "moss",
+        "title": "Moss removal on walls and floors",
+        "desc": "Moss, lichen, algae and green deposits removed from walls, terraces, courtyards, driveways and car parks, using biodegradable products.",
+        "points": [
+          "Thorough curative treatment",
+          "Optional water-repellent protection",
+          "Less slippery, safer surfaces"
+        ]
+      },
+      {
+        "key": "stains",
+        "title": "Stain removal and floor cleaning",
+        "desc": "Oil, grease, chewing gum, rust, tyre marks: car parks, pavements, pavers, slabs and entrances look clean again.",
+        "points": [
+          "Car parks and traffic areas",
+          "Pavers, slabs, concrete",
+          "Old and ingrained stains"
+        ]
+      },
+      {
+        "key": "paint",
+        "title": "Repainting",
+        "desc": "After cleaning, we repaint façades, walls and exterior surfaces for a sharp, long-lasting finish.",
+        "points": [
+          "Full surface preparation",
+          "Colour of your choice",
+          "Careful, durable finish"
+        ]
+      },
+      {
+        "key": "industrial",
+        "title": "Industrial cleaning",
+        "desc": "Workshop and warehouse floors, loading docks, oil puddles and leaks: high-pressure cleaning that keeps your downtime to a minimum.",
+        "points": [
+          "High-pressure degreasing",
+          "Work outside production hours",
+          "Oil leaks handled as emergencies"
+        ]
+      }
+    ]
+  },
+  "sectors": {
+    "eyebrow": "02 — Sectors",
+    "title": "A partner for the people who manage buildings.",
+    "lead": "We work for professionals who need a reliable, responsive and fully compliant contractor.",
+    "items": [
+      {
+        "title": "Building owners' associations",
+        "desc": "Façades, entrance halls, courtyards and car parks. A clear quote for your general meeting."
+      },
+      {
+        "title": "Property and facility managers",
+        "desc": "One contractor for the exterior upkeep of several sites, scheduled around your constraints."
+      },
+      {
+        "title": "Municipalities and public bodies",
+        "desc": "Graffiti, street furniture, public buildings and roads, including urgent call-outs."
+      },
+      {
+        "title": "Businesses and industrial sites",
+        "desc": "Workshops, warehouses, docks and site surroundings cleaned without stopping production."
+      },
+      {
+        "title": "Developers and construction",
+        "desc": "End-of-works cleaning and restoration before handover or sale."
+      },
+      {
+        "title": "Shops and retail",
+        "desc": "Spotless shop windows, façades and storefronts: your customers' first impression."
+      }
+    ]
+  },
+  "method": {
+    "eyebrow": "03 — Method",
+    "title": "A well-run job, from request to report.",
+    "items": [
+      {
+        "title": "Request",
+        "desc": "Tell us what you need through the form or by phone. We get back to you quickly."
+      },
+      {
+        "title": "Site visit and assessment",
+        "desc": "We assess the surface, area, access and site constraints."
+      },
+      {
+        "title": "Detailed quote",
+        "desc": "A clear, itemised offer with no surprises on the invoice."
+      },
+      {
+        "title": "Scheduled work",
+        "desc": "Hours that fit your activity: daytime, evenings or weekends."
+      },
+      {
+        "title": "Photo report",
+        "desc": "When the job is done, you receive a work report with before and after photos."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "04 — Commitments",
+    "title": "What you can expect from us.",
+    "items": [
+      {
+        "title": "VCA certified",
+        "desc": "Safety and risk prevention built into every job."
+      },
+      {
+        "title": "Professional liability insurance",
+        "desc": "You work with an insured, fully compliant company."
+      },
+      {
+        "title": "Eco-friendly products",
+        "desc": "Biodegradable products that don't harm your surfaces or the environment."
+      },
+      {
+        "title": "A report for every job",
+        "desc": "Before and after photos, full traceability of the work."
+      },
+      {
+        "title": "Our own teams and equipment",
+        "desc": "5 operatives, 4 vans and 4 Dibo machines to schedule fast and meet deadlines."
+      },
+      {
+        "title": "Years of experience",
+        "desc": "Field expertise on every kind of surface and soiling."
+      }
+    ]
   },
   "emergency": {
-    "badge": "24/7 Emergency Response",
-    "title": "Industrial Emergency?",
-    "titleHighlight": "We're Ready Now",
-    "description": "Critical oil leak? Production halt due to contamination? Fire or flood damage requiring immediate cleanup? Our VCA certified emergency teams respond immediately with professional equipment to minimize your downtime and losses.",
-    "feature1": "Immediate deployment • VCA certified teams",
-    "feature2": "Professional autonomous equipment",
-    "cta": "CALL EMERGENCY LINE",
-    "ctaSubtext": "+32 483 50 12 55 • Available 24/7/365"
-  },
-  "about": {
-    "badge": "VCA Certified Company",
-    "title": "Your Trusted Partner for Industrial Hygiene Excellence",
-    "description1": "Goboclean is a VCA certified Belgian company specializing in professional industrial cleaning and maintenance services. We understand that industrial cleanliness is critical for safety, compliance, and productivity. Our certification guarantees the highest safety and quality standards.",
-    "description2": "Our certified teams use state-of-the-art hot water high-pressure equipment and environmentally approved products. Whether you need regular maintenance or emergency intervention, we deliver impeccable results while respecting environmental regulations and workplace safety requirements.",
-    "statYears": "Years of proven expertise",
-    "feature1Title": "VCA Certified",
-    "feature1Description": "Official safety certification for industrial work environments.",
-    "feature2Title": "Advanced Technology",
-    "feature2Description": "Industrial hot water high-pressure equipment for superior results.",
-    "feature3Title": "Safety First",
-    "feature3Description": "Certified personnel trained in industrial risk prevention.",
-    "feature4Title": "24/7 Availability",
-    "feature4Description": "Emergency response teams ready day, night, and weekends."
+    "eyebrow": "Emergency response",
+    "title": "Problems don't give notice. We answer 24/7.",
+    "lead": "Offensive graffiti on a façade, an oil leak on site, soiling before an event: our teams respond day and night, weekends and public holidays included, anywhere in Belgium.",
+    "cta": "Call the emergency line",
+    "note": "Available 24/7 · 7 days a week"
   },
   "contact": {
-    "badge": "Get Your Free Quote",
-    "title": "Professional Industrial Cleaning Services",
-    "infoTitle": "Contact Information",
-    "phone": "Phone",
-    "phoneNumber": "+32 483 50 12 55",
-    "phoneAvailable": "Available 24/7 for Emergencies",
-    "email": "Email",
-    "emailAddress": "info@goboclean.be",
-    "location": "Office Address",
-    "locationAddress": "J. Wielemansstraat 42",
-    "locationCity": "1652 Beersel, Belgium",
-    "vat": "VAT Number",
-    "vatNumber": "BE 0799.936.135",
-    "infoFooter": "VCA certified teams serving all of Belgium for your industrial cleaning needs.",
-    "formName": "Full Name",
-    "formNamePlaceholder": "Your full name",
-    "formCompany": "Company Name",
-    "formCompanyPlaceholder": "Your company",
-    "formEmail": "Professional Email",
-    "formEmailPlaceholder": "your.email@company.be",
-    "formPhone": "Phone Number",
-    "formPhonePlaceholder": "+32 4XX XX XX XX",
-    "formService": "Service Required",
-    "formServiceOption1": "Industrial Floor Cleaning",
-    "formServiceOption2": "Production Area Cleaning",
-    "formServiceOption3": "Emergency / Oil Spill Response",
-    "formServiceOption4": "Warehouse & Logistics Cleaning",
-    "formServiceOption5": "Other Service",
-    "formMessage": "Project Details",
-    "formMessagePlaceholder": "Please describe your needs: surface area, type of contamination, frequency required, specific constraints...",
-    "formSubmit": "Request Free Quote"
+    "eyebrow": "05 — Contact",
+    "title": "Let's talk about your site.",
+    "lead": "Describe what you need: we'll come back to you with a clear proposal.",
+    "phoneLabel": "Phone · 24/7",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "vatLabel": "VAT",
+    "zone": "Service across all of Belgium",
+    "form": {
+      "name": "Full name",
+      "company": "Company / organisation",
+      "email": "Business email",
+      "phone": "Phone",
+      "service": "Service needed",
+      "message": "Your request",
+      "messagePlaceholder": "Type of building, approximate area, site address, preferred timing…",
+      "submit": "Send request",
+      "sending": "Sending…",
+      "success": "Thank you! Your request has been sent. We'll get back to you shortly.",
+      "error": "Sending failed. Please try again or call us on +32 483 50 12 55.",
+      "required": "Required fields",
+      "options": {
+        "facades": "Façade cleaning",
+        "graffiti": "Graffiti removal",
+        "moss": "Moss removal on walls and floors",
+        "stains": "Stain removal and floor cleaning",
+        "paint": "Repainting",
+        "industrial": "Industrial cleaning",
+        "emergency": "Emergency",
+        "other": "Other"
+      }
+    }
   },
   "footer": {
-    "description": "Goboclean - VCA certified industrial cleaning company in Belgium. Professional high-pressure cleaning, decontamination, and 24/7 emergency services for industrial facilities.",
-    "quickLinks": "Quick Links",
-    "home": "Home",
-    "about": "About Us",
-    "services": "Our Services",
-    "quote": "Request Quote",
-    "servicesTitle": "Our Services",
-    "serviceFloors": "Floor Degreasing",
-    "serviceProduction": "Production Cleaning",
-    "serviceSpills": "Emergency Response",
-    "serviceDocks": "Loading Dock Cleaning",
-    "contactTitle": "Contact",
-    "contactPhone": "+32 483 50 12 55",
-    "contactEmail": "info@goboclean.be",
-    "contactAddress": "J. Wielemansstraat 42, 1652 Beersel",
-    "contactVat": "VAT: BE 0799.936.135",
-    "legalTitle": "Legal",
-    "legalTerms": "Terms of Service",
-    "legalPrivacy": "Privacy Policy",
-    "legalCGV": "General Conditions",
-    "copyright": "© 2026 Goboclean. All rights reserved. VCA Certified Company.",
-    "status": "24/7 Emergency Service Available"
+    "tagline": "Façade, graffiti and industrial site cleaning for professionals. VCA certified · 24/7 · All of Belgium.",
+    "services": "Services",
+    "company": "Company",
+    "rights": "All rights reserved."
   }
 }

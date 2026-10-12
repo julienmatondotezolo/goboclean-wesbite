@@ -1,17 +1,17 @@
 import "../../assets/styles/globals.css";
 
-import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+import { Archivo, IBM_Plex_Mono } from "next/font/google";
 import React from "react";
 
 import Providers from "./providers";
 
-const dmSans = DM_Sans({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "next-ts-starter template",
-  description: "Next.js typescript template with tailwind darkmode and localization",
-};
+const archivo = Archivo({ subsets: ["latin"], variable: "--font-archivo", display: "swap" });
+const plexMono = IBM_Plex_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-plex-mono",
+  display: "swap",
+});
 
 export default async function RootLayout({
   children,
@@ -23,8 +23,8 @@ export default async function RootLayout({
   const { locale } = await params;
 
   return (
-    <html suppressHydrationWarning={true} lang={locale}>
-      <body className="bg-slate-50 text-slate-900 scroll-smooth">
+    <html lang={locale} className={`${archivo.variable} ${plexMono.variable}`}>
+      <body>
         <Providers locale={locale}>{children}</Providers>
       </body>
     </html>

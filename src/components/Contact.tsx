@@ -1,117 +1,184 @@
 'use client';
 
-import React from 'react';
-import { Mail, MapPin, Phone } from 'lucide-react';
-import { useTranslations } from 'next-intl';
+import React, { useState } from 'react';
+import { ArrowRight, CheckCircle2, Loader2, Mail, MapPin, Phone, Receipt } from 'lucide-react';
+import { useLocale, useTranslations } from 'next-intl';
+import { COMPANY, CONTACT_ENDPOINT, SERVICE_KEYS } from '@/lib/company';
+import { Eyebrow, Reveal } from './primitives';
 
-const Contact: React.FC = () => {
+type Status = 'idle' | 'sending' | 'sent' | 'error';
+
+const field =
+  'w-full rounded-sm border border-black/15 bg-white px-4 py-3.5 text-ink outline-none transition-colors placeholder:text-stone/60 focus:border-forest focus:ring-2 focus:ring-lime/60';
+const label = 'mb-2 block font-mono text-[11px] uppercase tracking-[0.16em] text-stone';
+
+export function Contact() {
   const t = useTranslations('contact');
+  const locale = useLocale();
+  const [status, setStatus] = useState<Status>('idle');
+
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const data = Object.fromEntries(new FormData(form).entries()) as Record<string, string>;
+    // On n'envoie pas les champs vides (le backend refuse les clés inconnues, pas les absentes)
+    const payload: Record<string, string> = { locale };
+    for (const [k, v] of Object.entries(data)) if (v.trim()) payload[k] = v.trim();
+    if (payload.service) payload.service = t(`form.options.${payload.service}`);
+
+    setStatus('sending');
+    try {
+      const res = await fetch(CONTACT_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) throw new Error(String(res.status));
+      form.reset();
+      setStatus('sent');
+    } catch {
+      setStatus('error');
+    }
+  };
+
+  const info = [
+    { icon: Phone, label: t('phoneLabel'), value: COMPANY.phone, href: COMPANY.phoneHref },
+    { icon: Mail, label: t('emailLabel'), value: COMPANY.email, href: `mailto:${COMPANY.email}` },
+    { icon: MapPin, label: t('addressLabel'), value: `${COMPANY.street}, ${COMPANY.city}` },
+    { icon: Receipt, label: t('vatLabel'), value: COMPANY.vat },
+  ];
 
   return (
-    <section id="contact" className="py-24 bg-slate-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-gobo-neon font-bold tracking-widest uppercase mb-3">{t('badge')}</h2>
-          <h3 className="text-4xl font-bold text-gobo-dark">{t('title')}</h3>
-        </div>
+    <section id="contact" className="py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="grid overflow-hidden shadow-[0_30px_80px_-40px_rgb(7_26_15/0.45)] lg:grid-cols-12">
+          {/* Coordonnées */}
+          <Reveal className="grain relative bg-forest p-8 text-white sm:p-12 lg:col-span-5">
+            <div className="bg-grid absolute inset-0" />
+            <div className="relative">
+              <Eyebrow light>{t('eyebrow')}</Eyebrow>
+              <h2 className="font-display text-4xl font-extrabold leading-[1.02] tracking-[-0.03em] sm:text-5xl">
+                {t('title')}
+              </h2>
+              <p className="mt-5 text-lg leading-relaxed text-white/65">{t('lead')}</p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Contact Info */}
-          <div className="lg:col-span-1 bg-gobo-dark rounded-2xl p-10 text-white shadow-xl flex flex-col justify-between h-full">
-            <div>
-              <h4 className="text-2xl font-bold mb-8 text-gobo-neon">{t('infoTitle')}</h4>
-              <div className="space-y-8">
-                <div className="flex items-start gap-4">
-                  <div className="bg-white/10 p-3 rounded-lg">
-                    <Phone className="text-gobo-neon" />
+              <dl className="mt-12 space-y-6">
+                {info.map(({ icon: Icon, label: l, value, href }) => (
+                  <div key={l} className="flex items-start gap-4">
+                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-sm bg-white/10 text-lime">
+                      <Icon size={20} strokeWidth={1.75} />
+                    </span>
+                    <div>
+                      <dt className="font-mono text-[11px] uppercase tracking-[0.16em] text-white/50">{l}</dt>
+                      <dd className="mt-1 text-lg font-semibold">
+                        {href ? (
+                          <a href={href} className="transition-colors hover:text-lime">
+                            {value}
+                          </a>
+                        ) : (
+                          value
+                        )}
+                      </dd>
+                    </div>
                   </div>
-                  <div>
-                    <p className="text-sm text-gray-400">{t('phone')}</p>
-                    <p className="font-bold text-lg">0800 98 765</p>
-                    <p className="text-xs text-gobo-neon mt-1">{t('phoneAvailable')}</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4">
-                  <div className="bg-white/10 p-3 rounded-lg">
-                    <Mail className="text-gobo-neon" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-400">{t('email')}</p>
-                    <p className="font-bold text-lg">contact@goboclean.com</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="bg-white/10 p-3 rounded-lg">
-                    <MapPin className="text-gobo-neon" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-400">{t('location')}</p>
-                    <p className="font-bold text-lg">{t('locationAddress')}</p>
-                    <p className="text-gray-300">{t('locationCity')}</p>
-                  </div>
-                </div>
-              </div>
+                ))}
+              </dl>
+              <p className="mt-12 border-t border-white/15 pt-6 font-mono text-[11px] uppercase tracking-[0.16em] text-lime">
+                {t('zone')}
+              </p>
             </div>
-            
-            <div className="mt-12 pt-8 border-t border-white/10">
-                <p className="text-gray-400 text-sm">
-                    {t('infoFooter')}
+          </Reveal>
+
+          {/* Formulaire */}
+          <div className="bg-white p-8 sm:p-12 lg:col-span-7">
+            {status === 'sent' ? (
+              <div className="flex h-full flex-col items-start justify-center py-16">
+                <CheckCircle2 className="h-14 w-14 text-moss" strokeWidth={1.5} />
+                <p className="mt-6 max-w-md font-display text-2xl font-bold tracking-[-0.02em] text-ink">
+                  {t('form.success')}
                 </p>
-            </div>
-          </div>
-
-          {/* Form */}
-          <div className="lg:col-span-2 bg-white rounded-2xl p-10 shadow-lg border border-gray-100">
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">{t('formName')}</label>
-                  <input type="text" id="name" className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-gobo-neon focus:ring-1 focus:ring-gobo-neon outline-none transition-colors" placeholder={t('formNamePlaceholder')} />
-                </div>
-                <div>
-                  <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">{t('formCompany')}</label>
-                  <input type="text" id="company" className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-gobo-neon focus:ring-1 focus:ring-gobo-neon outline-none transition-colors" placeholder={t('formCompanyPlaceholder')} />
-                </div>
               </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">{t('formEmail')}</label>
-                  <input type="email" id="email" className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-gobo-neon focus:ring-1 focus:ring-gobo-neon outline-none transition-colors" placeholder={t('formEmailPlaceholder')} />
+            ) : (
+              <form onSubmit={onSubmit} className="space-y-6">
+                {/* Honeypot anti-robots : invisible pour les humains */}
+                <div className="absolute -left-[9999px]" aria-hidden="true">
+                  <input type="text" name="website" tabIndex={-1} autoComplete="off" />
                 </div>
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">{t('formPhone')}</label>
-                  <input type="tel" id="phone" className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-gobo-neon focus:ring-1 focus:ring-gobo-neon outline-none transition-colors" placeholder={t('formPhonePlaceholder')} />
+
+                <div className="grid gap-6 sm:grid-cols-2">
+                  <div>
+                    <label htmlFor="name" className={label}>{t('form.name')} *</label>
+                    <input id="name" name="name" required maxLength={120} autoComplete="name" className={field} />
+                  </div>
+                  <div>
+                    <label htmlFor="company" className={label}>{t('form.company')}</label>
+                    <input id="company" name="company" maxLength={160} autoComplete="organization" className={field} />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className={label}>{t('form.email')} *</label>
+                    <input id="email" name="email" type="email" required maxLength={160} autoComplete="email" className={field} />
+                  </div>
+                  <div>
+                    <label htmlFor="phone" className={label}>{t('form.phone')}</label>
+                    <input id="phone" name="phone" type="tel" maxLength={40} autoComplete="tel" className={field} />
+                  </div>
                 </div>
-              </div>
 
-              <div>
-                <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">{t('formService')}</label>
-                <select id="service" className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-gobo-neon focus:ring-1 focus:ring-gobo-neon outline-none transition-colors text-gray-600">
-                  <option>{t('formServiceOption1')}</option>
-                  <option>{t('formServiceOption2')}</option>
-                  <option>{t('formServiceOption3')}</option>
-                  <option>{t('formServiceOption4')}</option>
-                  <option>{t('formServiceOption5')}</option>
-                </select>
-              </div>
+                <div>
+                  <label htmlFor="service" className={label}>{t('form.service')}</label>
+                  <select id="service" name="service" defaultValue="" className={field}>
+                    <option value="">—</option>
+                    {[...SERVICE_KEYS, 'emergency', 'other'].map((k) => (
+                      <option key={k} value={k}>
+                        {t(`form.options.${k}`)}
+                      </option>
+                    ))}
+                  </select>
+                </div>
 
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">{t('formMessage')}</label>
-                <textarea id="message" rows={4} className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-gobo-neon focus:ring-1 focus:ring-gobo-neon outline-none transition-colors" placeholder={t('formMessagePlaceholder')}></textarea>
-              </div>
+                <div>
+                  <label htmlFor="message" className={label}>{t('form.message')} *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    required
+                    rows={5}
+                    maxLength={4000}
+                    placeholder={t('form.messagePlaceholder')}
+                    className={field}
+                  />
+                </div>
 
-              <button type="button" className="w-full bg-gobo-neon text-gobo-dark font-bold text-lg py-4 rounded-lg hover:bg-lime-300 transition-colors shadow-lg shadow-lime-200/50">
-                {t('formSubmit')}
-              </button>
-            </form>
+                {status === 'error' && (
+                  <p className="rounded-sm border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700" role="alert">
+                    {t('form.error')}
+                  </p>
+                )}
+
+                <div className="flex flex-col-reverse items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
+                  <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-stone">* {t('form.required')}</p>
+                  <button
+                    type="submit"
+                    disabled={status === 'sending'}
+                    className="group flex w-full items-center justify-center gap-2 rounded-full bg-forest px-8 py-4 font-bold text-white transition-colors hover:bg-moss disabled:opacity-60 sm:w-auto"
+                  >
+                    {status === 'sending' ? (
+                      <>
+                        <Loader2 size={18} className="animate-spin" /> {t('form.sending')}
+                      </>
+                    ) : (
+                      <>
+                        {t('form.submit')}
+                        <ArrowRight size={18} className="text-lime transition-transform group-hover:translate-x-1" />
+                      </>
+                    )}
+                  </button>
+                </div>
+              </form>
+            )}
           </div>
         </div>
       </div>
     </section>
   );
-};
-
-export { Contact };
+}

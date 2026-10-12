@@ -1,83 +1,66 @@
 'use client';
 
 import React from 'react';
-import { Hexagon, Facebook, Linkedin, Instagram } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { COMPANY } from '@/lib/company';
+import { Brand } from './primitives';
 
-const Footer: React.FC = () => {
+type ServiceItem = { key: string; title: string };
+
+export function Footer() {
   const t = useTranslations('footer');
+  const ts = useTranslations('services');
+  const services = ts.raw('items') as ServiceItem[];
 
   return (
-    <footer className="bg-slate-950 text-white pt-20 pb-10 border-t border-slate-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-          
-          {/* Brand */}
-          <div>
-            <div className="flex items-center gap-2 mb-6">
-               <div className="relative">
-                <Hexagon className="h-8 w-8 text-gobo-neon fill-gobo-dark" strokeWidth={2.5} />
-                <span className="absolute inset-0 flex items-center justify-center font-bold text-gobo-neon text-xs">G</span>
-              </div>
-              <span className="text-2xl font-bold tracking-tight">
-                GoBo<span className="text-gobo-neon">clean</span>
-              </span>
-            </div>
-            <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              {t('description')}
-            </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-gobo-neon transition-colors"><Facebook size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-gobo-neon transition-colors"><Linkedin size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-gobo-neon transition-colors"><Instagram size={20} /></a>
-            </div>
+    <footer className="bg-ink pb-10 pt-20 text-white">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="grid gap-12 md:grid-cols-12">
+          <div className="md:col-span-5">
+            <Brand />
+            <p className="mt-6 max-w-sm leading-relaxed text-white/55">{t('tagline')}</p>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-bold mb-6 text-white">{t('quickLinks')}</h4>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-gobo-neon transition-colors text-sm">{t('home')}</a></li>
-              <li><a href="#about" className="text-gray-400 hover:text-gobo-neon transition-colors text-sm">{t('about')}</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-gobo-neon transition-colors text-sm">{t('services')}</a></li>
-              <li><a href="#contact" className="text-gray-400 hover:text-gobo-neon transition-colors text-sm">{t('quote')}</a></li>
+          <div className="md:col-span-3">
+            <h3 className="font-mono text-[11px] uppercase tracking-[0.18em] text-lime">{t('services')}</h3>
+            <ul className="mt-5 space-y-2.5">
+              {services.map((s) => (
+                <li key={s.key}>
+                  <a href="#services" className="text-sm text-white/65 transition-colors hover:text-lime">
+                    {s.title}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
-          {/* Services */}
-          <div>
-            <h4 className="text-lg font-bold mb-6 text-white">{t('servicesTitle')}</h4>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-gobo-neon transition-colors text-sm">{t('serviceFloors')}</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-gobo-neon transition-colors text-sm">{t('serviceProduction')}</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-gobo-neon transition-colors text-sm">{t('serviceSpills')}</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-gobo-neon transition-colors text-sm">{t('serviceDocks')}</a></li>
-            </ul>
-          </div>
-
-          {/* Contact Small */}
-          <div>
-            <h4 className="text-lg font-bold mb-6 text-white">{t('legalTitle')}</h4>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-gobo-neon transition-colors text-sm">{t('legalTerms')}</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-gobo-neon transition-colors text-sm">{t('legalPrivacy')}</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-gobo-neon transition-colors text-sm">{t('legalCGV')}</a></li>
-            </ul>
+          <div className="md:col-span-4">
+            <h3 className="font-mono text-[11px] uppercase tracking-[0.18em] text-lime">{t('company')}</h3>
+            <address className="mt-5 space-y-2.5 text-sm not-italic text-white/65">
+              <p className="font-semibold text-white">{COMPANY.name}</p>
+              <p>
+                {COMPANY.street}
+                <br />
+                {COMPANY.city}
+              </p>
+              <p>
+                <a href={COMPANY.phoneHref} className="transition-colors hover:text-lime">{COMPANY.phone}</a>
+              </p>
+              <p>
+                <a href={`mailto:${COMPANY.email}`} className="transition-colors hover:text-lime">{COMPANY.email}</a>
+              </p>
+              <p>TVA / BTW {COMPANY.vat}</p>
+            </address>
           </div>
         </div>
 
-        <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} {t('copyright')}
+        <div className="mt-16 flex flex-col gap-3 border-t border-white/10 pt-8 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between">
+          <p>
+            © {new Date().getFullYear()} {COMPANY.name}. {t('rights')}
           </p>
-          <div className="flex items-center gap-2">
-            <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
-            <span className="text-xs text-green-500 font-medium">{t('status')}</span>
-          </div>
+          <p className="font-mono uppercase tracking-[0.16em]">VCA certified · 24/7</p>
         </div>
       </div>
     </footer>
   );
-};
-
-export { Footer };
+}
