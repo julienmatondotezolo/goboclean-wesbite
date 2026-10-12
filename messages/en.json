@@ -11,7 +11,10 @@
     "contact": "Contact",
     "quote": "Request a quote",
     "emergency": "24/7 Emergency",
-    "menu": "Menu"
+    "menu": "Menu",
+    "home": "Home",
+    "about": "About us",
+    "allServices": "All services"
   },
   "hero": {
     "eyebrow": "Technical B2B cleaning · Belgium",
@@ -35,7 +38,7 @@
     "note": "Our own teams and our own equipment: we schedule fast and meet deadlines."
   },
   "services": {
-    "eyebrow": "01 — Services",
+    "eyebrow": "Services",
     "title": "Everything on the outside of a building that needs cleaning.",
     "lead": "From routine upkeep to difficult jobs, we adapt the method, pressure and product to every surface.",
     "items": [
@@ -47,6 +50,18 @@
           "Residential blocks, offices, shops",
           "Pressure and product matched to the surface",
           "Marked-off, secured work area"
+        ],
+        "long": [
+          "A façade dirtied by pollution, particulates and weather lowers the value of a building and gives occupants and visitors a poor impression. We clean every type of façade (natural stone, brick, render, concrete, cladding) with a technique suited to the surface: high pressure, hot water, low pressure with product, or soft cleaning for fragile materials.",
+          "Before every job, we check the condition of the surface to choose the right method and avoid any damage. The work area is marked off and secured, the surroundings are protected, and the job is scheduled to disturb occupants as little as possible."
+        ],
+        "includes": [
+          "Surface assessment and test on a discreet area",
+          "Marking off and securing the work area",
+          "Protection of frames, glazing and surroundings",
+          "High pressure, hot water or low pressure depending on the material",
+          "Rinsing and clean-up of the surroundings at the end",
+          "Water-repellent or anti-soiling treatment as an option"
         ]
       },
       {
@@ -57,6 +72,18 @@
           "Stone, brick, metal, glass",
           "Fast response, even in emergencies",
           "Result documented with photos"
+        ],
+        "long": [
+          "Graffiti left in place attracts more graffiti. The sooner it is removed, the simpler the cleaning and the better the surface is preserved. We remove tags, graffiti, posters and stickers from stone, brick, concrete, metal, wood, glass and street furniture.",
+          "The product and method are chosen according to the paint used and the porosity of the surface, so the graffiti disappears without leaving a ghost mark. After cleaning, an anti-graffiti coating can be applied to make future removals easier."
+        ],
+        "includes": [
+          "Identification of the surface and the paint",
+          "Stripping with suitable, biodegradable products",
+          "High-pressure or hot-water rinsing",
+          "Removal of posters and stickers",
+          "Anti-graffiti coating as an option",
+          "Emergency call-out for offensive graffiti"
         ]
       },
       {
@@ -67,6 +94,18 @@
           "Thorough curative treatment",
           "Optional water-repellent protection",
           "Less slippery, safer surfaces"
+        ],
+        "long": [
+          "Moss, lichen and algae settle on walls, terraces, courtyards, paths and car parks. They blacken surfaces, damage joints and make floors slippery: a real fall risk for occupants and the public.",
+          "We combine mechanical cleaning, with high pressure or a rotary surface cleaner, with a biodegradable curative treatment that works in depth. A water-repellent can then be applied to slow regrowth and protect the surface."
+        ],
+        "includes": [
+          "High-pressure or rotary-brush cleaning",
+          "Biodegradable curative anti-moss treatment",
+          "Cleaning of joints and corners",
+          "Removal of residues",
+          "Walls, terraces, courtyards, paths and car parks",
+          "Protective water-repellent as an option"
         ]
       },
       {
@@ -77,6 +116,18 @@
           "Car parks and traffic areas",
           "Pavers, slabs, concrete",
           "Old and ingrained stains"
+        ],
+        "long": [
+          "Oil, grease, chewing-gum and rust stains and tyre marks quickly make car parks, entrances and pavements look neglected. The longer they stay, the harder they are to remove.",
+          "We treat each stain with the right product, then clean the surface with hot high-pressure water for an even result. We work on pavers, slabs, concrete, asphalt and natural stone, outside opening hours if needed."
+        ],
+        "includes": [
+          "Pre-treatment of stains by type",
+          "Hot-water high-pressure cleaning",
+          "Chewing-gum removal",
+          "Treatment of rust marks",
+          "Pavers, slabs, concrete, asphalt and stone",
+          "Work outside opening hours"
         ]
       },
       {
@@ -87,6 +138,18 @@
           "Full surface preparation",
           "Colour of your choice",
           "Careful, durable finish"
+        ],
+        "long": [
+          "Cleaning sometimes reveals a damaged surface or worn paint. Instead of bringing in a second contractor, we repaint façades, walls, plinths and exterior surfaces straight away.",
+          "Preparation makes the result: cleaning, sanding, filling and protecting the surroundings before painting. We use exterior paints suited to the surface for a clean, durable finish."
+        ],
+        "includes": [
+          "Cleaning and preparation of the surface",
+          "Filling and minor repairs",
+          "Protection of surroundings, frames and floors",
+          "Exterior paint suited to the surface",
+          "Colour of your choice",
+          "Site clean-up at the end of the job"
         ]
       },
       {
@@ -97,43 +160,87 @@
           "High-pressure degreasing",
           "Work outside production hours",
           "Oil leaks handled as emergencies"
+        ],
+        "long": [
+          "Workshop and warehouse floors, loading docks, storage areas, site surroundings: a clean industrial environment is safer, more pleasant, and reassures your customers and auditors.",
+          "We degrease with hot high-pressure water and deal with oil leaks and spills, including in emergencies. Our VCA-certified teams know the safety rules of industrial sites and organise their work outside production hours."
+        ],
+        "includes": [
+          "Hot-water high-pressure floor degreasing",
+          "Treatment of oil leaks and spills",
+          "Loading docks and storage areas",
+          "Site surroundings and lorry parks",
+          "Work outside production hours",
+          "Compliance with site safety rules (VCA)"
         ]
       }
     ]
   },
   "sectors": {
-    "eyebrow": "02 — Sectors",
+    "eyebrow": "Sectors",
     "title": "A partner for the people who manage buildings.",
     "lead": "We work for professionals who need a reliable, responsive and fully compliant contractor.",
     "items": [
       {
         "title": "Building owners' associations",
-        "desc": "Façades, entrance halls, courtyards and car parks. A clear quote for your general meeting."
+        "desc": "Façades, entrance halls, courtyards and car parks. A clear quote for your general meeting.",
+        "services": [
+          "facades",
+          "moss",
+          "stains",
+          "graffiti"
+        ]
       },
       {
         "title": "Property and facility managers",
-        "desc": "One contractor for the exterior upkeep of several sites, scheduled around your constraints."
+        "desc": "One contractor for the exterior upkeep of several sites, scheduled around your constraints.",
+        "services": [
+          "facades",
+          "stains",
+          "moss",
+          "industrial"
+        ]
       },
       {
         "title": "Municipalities and public bodies",
-        "desc": "Graffiti, street furniture, public buildings and roads, including urgent call-outs."
+        "desc": "Graffiti, street furniture, public buildings and roads, including urgent call-outs.",
+        "services": [
+          "graffiti",
+          "facades",
+          "stains"
+        ]
       },
       {
         "title": "Businesses and industrial sites",
-        "desc": "Workshops, warehouses, docks and site surroundings cleaned without stopping production."
+        "desc": "Workshops, warehouses, docks and site surroundings cleaned without stopping production.",
+        "services": [
+          "industrial",
+          "stains",
+          "facades"
+        ]
       },
       {
         "title": "Developers and construction",
-        "desc": "End-of-works cleaning and restoration before handover or sale."
+        "desc": "End-of-works cleaning and restoration before handover or sale.",
+        "services": [
+          "facades",
+          "stains",
+          "paint"
+        ]
       },
       {
         "title": "Shops and retail",
-        "desc": "Spotless shop windows, façades and storefronts: your customers' first impression."
+        "desc": "Spotless shop windows, façades and storefronts: your customers' first impression.",
+        "services": [
+          "facades",
+          "graffiti",
+          "stains"
+        ]
       }
     ]
   },
   "method": {
-    "eyebrow": "03 — Method",
+    "eyebrow": "Method",
     "title": "A well-run job, from request to report.",
     "items": [
       {
@@ -159,7 +266,7 @@
     ]
   },
   "why": {
-    "eyebrow": "04 — Commitments",
+    "eyebrow": "Commitments",
     "title": "What you can expect from us.",
     "items": [
       {
@@ -196,7 +303,7 @@
     "note": "Available 24/7 · 7 days a week"
   },
   "contact": {
-    "eyebrow": "05 — Contact",
+    "eyebrow": "Contact",
     "title": "Let's talk about your site.",
     "lead": "Describe what you need: we'll come back to you with a clear proposal.",
     "phoneLabel": "Phone · 24/7",
@@ -226,14 +333,18 @@
         "industrial": "Industrial cleaning",
         "emergency": "Emergency",
         "other": "Other"
-      }
+      },
+      "consent": "By sending this form, you agree that GoboClean uses your data to handle your request.",
+      "privacyLink": "Privacy policy"
     }
   },
   "footer": {
     "tagline": "Façade, graffiti and industrial site cleaning for professionals. VCA certified · 24/7 · All of Belgium.",
     "services": "Services",
     "company": "Company",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "navigation": "Navigation",
+    "privacy": "Privacy"
   },
   "legacy": {
     "metadata": {
@@ -368,6 +479,150 @@
       "legalCGV": "General Conditions",
       "copyright": "© 2026 Goboclean. All rights reserved. VCA Certified Company.",
       "status": "24/7 Emergency Service Available"
+    }
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "sectorsAll": "See all sectors",
+    "emergencyMore": "How emergency call-outs work",
+    "cta": {
+      "title": "A building or site that needs restoring?",
+      "lead": "Tell us what you need: we will come back to you with a clear proposal, anywhere in Belgium.",
+      "quote": "Request a quote",
+      "call": "Call +32 483 50 12 55"
+    }
+  },
+  "pages": {
+    "services": {
+      "metaTitle": "Professional cleaning services",
+      "metaDesc": "Façade cleaning, graffiti removal, moss removal, floor stain removal, repainting and industrial cleaning for professionals, anywhere in Belgium.",
+      "eyebrow": "Services",
+      "title": "Technical cleaning of buildings and sites.",
+      "lead": "Façades, graffiti, moss, stains, paint and industrial sites: six trades handled by one team with its own equipment."
+    },
+    "serviceDetail": {
+      "eyebrow": "Service",
+      "includesTitle": "What the job includes",
+      "asideTitle": "A quote for this service",
+      "asideLead": "Describe the site: we will come back to you with a clear proposal.",
+      "asideCta": "Request a quote",
+      "asideOr": "or call us, 24/7",
+      "otherTitle": "Our other services"
+    },
+    "sectors": {
+      "metaTitle": "Sectors: property managers, municipalities, companies",
+      "metaDesc": "GoboClean cleans buildings and sites for property managers, facility managers, municipalities, companies, industry, developers and retailers in Belgium.",
+      "eyebrow": "Sectors",
+      "title": "A partner for those who manage buildings.",
+      "lead": "We work for professionals who need a reliable, responsive and compliant contractor.",
+      "servicesLabel": "Most requested services"
+    },
+    "about": {
+      "metaTitle": "About us",
+      "metaDesc": "GoboClean, a Belgian technical cleaning company: VCA-certified teams, high-pressure equipment, biodegradable products and 24/7 call-outs.",
+      "eyebrow": "About us",
+      "title": "A field team, equipped for demanding jobs.",
+      "lead": "GoboClean is a Belgian technical cleaning company serving professionals who manage buildings and sites.",
+      "introEyebrow": "Who we are",
+      "introTitle": "Technical cleaning, done properly.",
+      "intro": [
+        "We clean and restore the façades, walls, floors and industrial sites of property managers, facility managers, municipalities, companies, developers and retailers, anywhere in Belgium.",
+        "Our operatives work with their own equipment: fitted vans and Dibo hot-water high-pressure machines. This independence lets us schedule quickly, respond to emergencies and meet the deadlines we commit to.",
+        "Safety, insurance, biodegradable products and a photo report on every job: we work the way our professional clients expect, with several years of experience on every type of surface."
+      ]
+    },
+    "emergency": {
+      "metaTitle": "24/7 emergency cleaning",
+      "metaDesc": "Offensive graffiti, oil leak, soiling: GoboClean responds to emergencies 24/7, weekends and public holidays included, anywhere in Belgium.",
+      "eyebrow": "24/7 emergency call-out",
+      "title": "An emergency on your site? We respond day and night.",
+      "lead": "Graffiti, oil leak, soiling: call us at any hour, weekends and public holidays included. An equipped team is dispatched anywhere in Belgium.",
+      "callLabel": "24/7 emergency line",
+      "situationsTitle": "Situations we are called for",
+      "situations": [
+        {
+          "title": "Offensive or hateful graffiti",
+          "desc": "Priority removal of offensive tags on façades, shop windows and public buildings."
+        },
+        {
+          "title": "Oil leak",
+          "desc": "Treatment of oil spills and leaks on industrial floors, docks and car parks."
+        },
+        {
+          "title": "Vandalism and soiling",
+          "desc": "Cleaning after damage, soiling or dumping on your façades and entrances."
+        },
+        {
+          "title": "Before an event",
+          "desc": "A clean façade or entrance before an opening, a visit or a reception."
+        },
+        {
+          "title": "Hazardous floors",
+          "desc": "Slippery floors (oil, moss, residues) made safe again for the public and staff."
+        },
+        {
+          "title": "After an incident",
+          "desc": "Exterior surfaces cleaned up after an incident or construction work."
+        }
+      ],
+      "stepsTitle": "How it works",
+      "steps": [
+        {
+          "title": "You call",
+          "desc": "Describe the situation and the site address to our 24/7 line."
+        },
+        {
+          "title": "We dispatch a team",
+          "desc": "We confirm the call-out and send an equipped team on site."
+        },
+        {
+          "title": "Job and report",
+          "desc": "The site is cleaned and made safe; you receive a before-and-after photo report."
+        }
+      ]
+    },
+    "contact": {
+      "metaTitle": "Contact and quote request",
+      "metaDesc": "Ask GoboClean for a quote to clean your façades, floors or industrial sites. 24/7 phone: +32 483 50 12 55.",
+      "eyebrow": "Contact",
+      "title": "Request a quote",
+      "lead": "A form, a call or an email: we will come back to you with a clear proposal."
+    },
+    "privacy": {
+      "metaTitle": "Privacy policy",
+      "eyebrow": "Privacy",
+      "title": "Privacy policy",
+      "updated": "Last updated: October 2026",
+      "sections": [
+        {
+          "title": "Data controller",
+          "body": "GoboClean, J. Wielemansstraat 42, 1652 Beersel (Belgium), VAT BE 0799.936.135. Contact: info@goboclean.be."
+        },
+        {
+          "title": "Data collected",
+          "body": "When you fill in the contact form: your name, your company, your email address, your phone number, the requested service and the content of your message."
+        },
+        {
+          "title": "Purpose and legal basis",
+          "body": "This data is used only to answer your request and prepare a quote (pre-contractual measures, Article 6.1.b GDPR). It is never sold or used for marketing without your consent."
+        },
+        {
+          "title": "Recipients",
+          "body": "Our teams, and our email delivery provider (Resend), acting as a processor solely to transmit the messages."
+        },
+        {
+          "title": "Retention period",
+          "body": "At most three years after our last exchange if no collaboration follows; in the case of a contract, the period required by our legal and accounting obligations."
+        },
+        {
+          "title": "Your rights",
+          "body": "You can request access to, rectification, erasure or restriction of your data, and object to its processing, by writing to info@goboclean.be. You can also lodge a complaint with the Belgian Data Protection Authority (www.dataprotectionauthority.be)."
+        },
+        {
+          "title": "Cookies",
+          "body": "This site uses no advertising cookies and no audience-measurement tool. A single technical cookie remembers the chosen language."
+        }
+      ]
     }
   }
 }

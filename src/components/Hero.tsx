@@ -3,7 +3,8 @@
 import React from 'react';
 import { ArrowRight, Phone, ShieldCheck } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import { COMPANY } from '@/lib/company';
+import { Link } from '@/i18n/routing';
+import { COMPANY, ROUTES } from '@/lib/company';
 import { Visual } from './primitives';
 
 export function Hero() {
@@ -11,7 +12,7 @@ export function Hero() {
   const badges = [t('badgeVca'), t('badge24'), t('badgeBe'), t('badgeEco')];
 
   return (
-    <section id="top" className="grain relative overflow-hidden bg-forest pb-28 pt-32 sm:pt-40 lg:pb-36">
+    <section className="grain relative overflow-hidden bg-forest pb-28 pt-32 sm:pt-40 lg:pb-36">
       <div className="bg-grid absolute inset-0" />
       <div className="absolute -right-40 -top-40 h-[560px] w-[560px] rounded-full bg-lime/10 blur-[120px]" />
 
@@ -29,13 +30,13 @@ export function Hero() {
             {t('lead')}
           </p>
           <div className="rise mt-10 flex flex-col gap-3 sm:flex-row" style={{ '--d': '460ms' } as React.CSSProperties}>
-            <a
-              href="#contact"
+            <Link
+              href={ROUTES.contact}
               className="group flex items-center justify-center gap-2 rounded-full bg-lime px-7 py-4 font-bold text-ink transition-colors hover:bg-white"
             >
               {t('ctaQuote')}
               <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
-            </a>
+            </Link>
             <a
               href={COMPANY.phoneHref}
               className="flex items-center justify-center gap-2 rounded-full border border-white/25 px-7 py-4 font-bold text-white transition-colors hover:border-lime hover:text-lime"

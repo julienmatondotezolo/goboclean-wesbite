@@ -11,7 +11,10 @@
     "contact": "Contact",
     "quote": "Demander un devis",
     "emergency": "Urgence 24/7",
-    "menu": "Menu"
+    "menu": "Menu",
+    "home": "Accueil",
+    "about": "Entreprise",
+    "allServices": "Tous nos services"
   },
   "hero": {
     "eyebrow": "Nettoyage technique B2B · Belgique",
@@ -35,7 +38,7 @@
     "note": "Nos propres équipes, notre propre matériel : nous planifions vite et nous tenons les délais."
   },
   "services": {
-    "eyebrow": "01 — Services",
+    "eyebrow": "Services",
     "title": "Tout ce qui se nettoie à l'extérieur d'un bâtiment.",
     "lead": "Du simple entretien au chantier difficile, nous adaptons la méthode, la pression et le produit à chaque support.",
     "items": [
@@ -47,6 +50,18 @@
           "Immeubles, bureaux, commerces",
           "Pression et produit adaptés au support",
           "Chantier balisé et sécurisé"
+        ],
+        "long": [
+          "Une façade encrassée par la pollution, les particules et les intempéries dévalorise un bâtiment et donne une mauvaise image à ses occupants comme à ses visiteurs. Nous nettoyons tous les types de façades (pierre naturelle, brique, crépi, béton, bardage, enduits) en adaptant la technique au support : haute pression, eau chaude, basse pression avec produit, ou nettoyage doux pour les matériaux fragiles.",
+          "Avant chaque chantier, nous vérifions l'état du support pour choisir la bonne méthode et éviter toute dégradation. La zone de travail est balisée et sécurisée, les abords sont protégés et l'intervention est planifiée pour gêner le moins possible les occupants."
+        ],
+        "includes": [
+          "Diagnostic du support et essai sur une zone discrète",
+          "Balisage et sécurisation de la zone de travail",
+          "Protection des menuiseries, vitrages et abords",
+          "Haute pression, eau chaude ou basse pression selon le matériau",
+          "Rinçage et nettoyage des abords en fin de chantier",
+          "Hydrofuge ou protection anti-salissures en option"
         ]
       },
       {
@@ -57,6 +72,18 @@
           "Pierre, brique, métal, vitrage",
           "Intervention rapide, même en urgence",
           "Résultat documenté en photos"
+        ],
+        "long": [
+          "Un graffiti laissé en place en attire d'autres. Plus il est retiré vite, plus le nettoyage est simple et le support préservé. Nous éliminons tags, graffitis, affiches et autocollants sur la pierre, la brique, le béton, le métal, le bois, le vitrage et le mobilier urbain.",
+          "Le produit et la méthode sont choisis selon la peinture utilisée et la porosité du support, pour retirer le graffiti sans laisser de trace fantôme. Après nettoyage, une protection anti-graffiti peut être appliquée pour faciliter les retraits suivants."
+        ],
+        "includes": [
+          "Identification du support et de la peinture",
+          "Décapage avec des produits adaptés et biodégradables",
+          "Rinçage haute pression ou à l'eau chaude",
+          "Retrait des affiches et autocollants",
+          "Protection anti-graffiti en option",
+          "Intervention d'urgence pour les graffitis injurieux"
         ]
       },
       {
@@ -67,6 +94,18 @@
           "Traitement curatif en profondeur",
           "Hydrofuge de protection en option",
           "Sols moins glissants, plus sûrs"
+        ],
+        "long": [
+          "Mousses, lichens et algues s'installent sur les murs, les terrasses, les cours, les allées et les parkings. Ils noircissent les surfaces, dégradent les joints et rendent les sols glissants : un vrai risque de chute pour les occupants et le public.",
+          "Nous combinons un nettoyage mécanique, haute pression ou à la brosse rotative, avec un traitement curatif biodégradable qui agit en profondeur. Un hydrofuge peut ensuite être appliqué pour ralentir la repousse et protéger le support."
+        ],
+        "includes": [
+          "Nettoyage haute pression ou à la brosse rotative",
+          "Traitement anti-mousse curatif biodégradable",
+          "Nettoyage des joints et des recoins",
+          "Évacuation des résidus",
+          "Murs, terrasses, cours, allées et parkings",
+          "Hydrofuge de protection en option"
         ]
       },
       {
@@ -77,6 +116,18 @@
           "Parkings et zones de circulation",
           "Pavés, dalles, béton",
           "Taches anciennes et incrustées"
+        ],
+        "long": [
+          "Les taches d'huile, de graisse, de gomme ou de rouille et les traces de pneus donnent vite un aspect négligé aux parkings, aux accès et aux trottoirs. Avec le temps, elles deviennent aussi plus difficiles à retirer.",
+          "Nous traitons chaque tache avec le produit adapté, puis nettoyons la surface à l'eau chaude haute pression pour un résultat homogène. Nous intervenons sur pavés, dalles, béton, asphalte et pierre naturelle, si nécessaire en dehors des heures d'ouverture."
+        ],
+        "includes": [
+          "Pré-traitement des taches selon leur nature",
+          "Nettoyage à l'eau chaude haute pression",
+          "Retrait des gommes à mâcher",
+          "Traitement des traces de rouille",
+          "Pavés, dalles, béton, asphalte et pierre",
+          "Interventions en dehors des heures d'ouverture"
         ]
       },
       {
@@ -87,6 +138,18 @@
           "Préparation complète du support",
           "Teintes au choix",
           "Finition soignée et durable"
+        ],
+        "long": [
+          "Un nettoyage révèle parfois un support abîmé ou une peinture usée. Plutôt que de faire appel à un second prestataire, nous remettons en peinture façades, murs, soubassements et surfaces extérieures dans la foulée.",
+          "La préparation fait la qualité du résultat : nettoyage, ponçage, rebouchage et protection des abords avant la mise en peinture. Nous utilisons des peintures extérieures adaptées au support pour une finition nette et durable."
+        ],
+        "includes": [
+          "Nettoyage et préparation du support",
+          "Rebouchage et petites réparations",
+          "Protection des abords, menuiseries et sols",
+          "Peinture extérieure adaptée au support",
+          "Teinte au choix",
+          "Nettoyage du chantier en fin d'intervention"
         ]
       },
       {
@@ -97,43 +160,87 @@
           "Dégraissage haute pression",
           "Interventions hors heures de production",
           "Fuites d'huile traitées en urgence"
+        ],
+        "long": [
+          "Sols d'ateliers et d'entrepôts, quais de chargement, zones de stockage, abords de site : un environnement industriel propre est plus sûr, plus agréable, et rassure vos clients comme vos auditeurs.",
+          "Nous dégraissons à l'eau chaude haute pression et traitons les fuites et flaques d'huile, y compris en urgence. Nos équipes VCA certified connaissent les règles de sécurité des sites industriels et s'organisent pour intervenir hors des heures de production."
+        ],
+        "includes": [
+          "Dégraissage des sols à l'eau chaude haute pression",
+          "Traitement des fuites et flaques d'huile",
+          "Quais de chargement et zones de stockage",
+          "Abords de site et parkings poids lourds",
+          "Interventions hors des heures de production",
+          "Respect des règles de sécurité du site (VCA)"
         ]
       }
     ]
   },
   "sectors": {
-    "eyebrow": "02 — Secteurs",
+    "eyebrow": "Secteurs",
     "title": "Un partenaire pour ceux qui gèrent des bâtiments.",
     "lead": "Nous travaillons pour les professionnels qui ont besoin d'un prestataire fiable, réactif et en règle.",
     "items": [
       {
         "title": "Syndics et copropriétés",
-        "desc": "Façades, halls d'entrée, cours et parkings d'immeubles. Devis clair pour l'assemblée générale."
+        "desc": "Façades, halls d'entrée, cours et parkings d'immeubles. Devis clair pour l'assemblée générale.",
+        "services": [
+          "facades",
+          "moss",
+          "stains",
+          "graffiti"
+        ]
       },
       {
         "title": "Gestionnaires et facility managers",
-        "desc": "Un prestataire unique pour l'entretien extérieur de plusieurs sites, planifié selon vos contraintes."
+        "desc": "Un prestataire unique pour l'entretien extérieur de plusieurs sites, planifié selon vos contraintes.",
+        "services": [
+          "facades",
+          "stains",
+          "moss",
+          "industrial"
+        ]
       },
       {
         "title": "Communes et pouvoirs publics",
-        "desc": "Graffitis, mobilier urbain, bâtiments publics et voiries, y compris en intervention urgente."
+        "desc": "Graffitis, mobilier urbain, bâtiments publics et voiries, y compris en intervention urgente.",
+        "services": [
+          "graffiti",
+          "facades",
+          "stains"
+        ]
       },
       {
         "title": "Entreprises et sites industriels",
-        "desc": "Ateliers, entrepôts, quais et abords de site, nettoyés sans bloquer votre production."
+        "desc": "Ateliers, entrepôts, quais et abords de site, nettoyés sans bloquer votre production.",
+        "services": [
+          "industrial",
+          "stains",
+          "facades"
+        ]
       },
       {
         "title": "Promoteurs et construction",
-        "desc": "Nettoyage de fin de chantier et remise en état avant réception ou mise en vente."
+        "desc": "Nettoyage de fin de chantier et remise en état avant réception ou mise en vente.",
+        "services": [
+          "facades",
+          "stains",
+          "paint"
+        ]
       },
       {
         "title": "Commerces et retail",
-        "desc": "Vitrines, façades et devantures impeccables : la première impression de vos clients."
+        "desc": "Vitrines, façades et devantures impeccables : la première impression de vos clients.",
+        "services": [
+          "facades",
+          "graffiti",
+          "stains"
+        ]
       }
     ]
   },
   "method": {
-    "eyebrow": "03 — Méthode",
+    "eyebrow": "Méthode",
     "title": "Un chantier maîtrisé, de la demande au rapport.",
     "items": [
       {
@@ -159,7 +266,7 @@
     ]
   },
   "why": {
-    "eyebrow": "04 — Engagements",
+    "eyebrow": "Engagements",
     "title": "Ce que vous pouvez exiger de nous.",
     "items": [
       {
@@ -196,7 +303,7 @@
     "note": "Disponible 24h/24 · 7j/7"
   },
   "contact": {
-    "eyebrow": "05 — Contact",
+    "eyebrow": "Contact",
     "title": "Parlons de votre site.",
     "lead": "Décrivez-nous votre besoin : nous revenons vers vous avec une proposition claire.",
     "phoneLabel": "Téléphone · 24/7",
@@ -226,14 +333,18 @@
         "industrial": "Nettoyage industriel",
         "emergency": "Urgence",
         "other": "Autre"
-      }
+      },
+      "consent": "En envoyant ce formulaire, vous acceptez que GoboClean utilise vos données pour traiter votre demande.",
+      "privacyLink": "Politique de confidentialité"
     }
   },
   "footer": {
     "tagline": "Nettoyage de façades, graffitis et sites industriels pour les professionnels. VCA certified · 24/7 · Toute la Belgique.",
     "services": "Services",
     "company": "Entreprise",
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "navigation": "Navigation",
+    "privacy": "Confidentialité"
   },
   "legacy": {
     "metadata": {
@@ -368,6 +479,150 @@
       "legalCGV": "Conditions Générales",
       "copyright": "© 2026 Goboclean. Tous droits réservés. Entreprise Certifiée VCA.",
       "status": "Service d'Urgence Disponible 24/7"
+    }
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "sectorsAll": "Voir tous les secteurs",
+    "emergencyMore": "Comment fonctionne l'intervention d'urgence",
+    "cta": {
+      "title": "Un bâtiment ou un site à remettre en état ?",
+      "lead": "Décrivez-nous votre besoin : nous revenons vers vous avec une proposition claire, partout en Belgique.",
+      "quote": "Demander un devis",
+      "call": "Appeler le +32 483 50 12 55"
+    }
+  },
+  "pages": {
+    "services": {
+      "metaTitle": "Services de nettoyage professionnel",
+      "metaDesc": "Nettoyage de façades, enlèvement de graffitis, démoussage, détachage de sols, remise en peinture et nettoyage industriel pour les professionnels, partout en Belgique.",
+      "eyebrow": "Services",
+      "title": "Nettoyage technique de bâtiments et de sites.",
+      "lead": "Façades, graffitis, mousses, taches, peinture et sites industriels : six métiers maîtrisés par une même équipe, avec son propre matériel."
+    },
+    "serviceDetail": {
+      "eyebrow": "Service",
+      "includesTitle": "Ce que comprend l'intervention",
+      "asideTitle": "Un devis pour ce service",
+      "asideLead": "Décrivez-nous le site : nous revenons vers vous avec une proposition claire.",
+      "asideCta": "Demander un devis",
+      "asideOr": "ou appelez-nous, 24h/24",
+      "otherTitle": "Nos autres services"
+    },
+    "sectors": {
+      "metaTitle": "Secteurs : syndics, communes, entreprises",
+      "metaDesc": "GoboClean nettoie bâtiments et sites pour les syndics, gestionnaires d'immeubles, communes, entreprises, industriels, promoteurs et commerces en Belgique.",
+      "eyebrow": "Secteurs",
+      "title": "Un partenaire pour ceux qui gèrent des bâtiments.",
+      "lead": "Nous travaillons pour les professionnels qui ont besoin d'un prestataire fiable, réactif et en règle.",
+      "servicesLabel": "Services les plus demandés"
+    },
+    "about": {
+      "metaTitle": "L'entreprise",
+      "metaDesc": "GoboClean, entreprise belge de nettoyage technique : équipes VCA certified, matériel haute pression, produits biodégradables et interventions 24/7.",
+      "eyebrow": "L'entreprise",
+      "title": "Une équipe de terrain, équipée pour les chantiers exigeants.",
+      "lead": "GoboClean est une entreprise belge de nettoyage technique au service des professionnels qui gèrent des bâtiments et des sites.",
+      "introEyebrow": "Qui sommes-nous",
+      "introTitle": "Le nettoyage technique, fait sérieusement.",
+      "intro": [
+        "Nous nettoyons et remettons en état les façades, les murs, les sols et les sites industriels des syndics, gestionnaires d'immeubles, communes, entreprises, promoteurs et commerces, partout en Belgique.",
+        "Nos agents travaillent avec leur propre matériel : camionnettes équipées et machines haute pression Dibo à eau chaude. Cette autonomie nous permet de planifier vite, d'intervenir en urgence et de tenir les délais annoncés.",
+        "Sécurité, assurance, produits biodégradables et rapport photo à chaque chantier : nous travaillons comme nos clients professionnels l'attendent, avec plusieurs années d'expérience sur tous les types de supports."
+      ]
+    },
+    "emergency": {
+      "metaTitle": "Intervention de nettoyage en urgence 24/7",
+      "metaDesc": "Graffiti injurieux, fuite d'huile, souillure : GoboClean intervient en urgence 24h/24 et 7j/7, week-ends et jours fériés compris, partout en Belgique.",
+      "eyebrow": "Intervention d'urgence 24/7",
+      "title": "Une urgence sur votre site ? Nous intervenons jour et nuit.",
+      "lead": "Graffiti, fuite d'huile, souillure : appelez-nous à toute heure, week-ends et jours fériés compris. Une équipe équipée se mobilise partout en Belgique.",
+      "callLabel": "Ligne d'urgence 24/7",
+      "situationsTitle": "Les situations pour lesquelles on nous appelle",
+      "situations": [
+        {
+          "title": "Graffiti injurieux ou haineux",
+          "desc": "Retrait prioritaire des tags offensants sur les façades, vitrines et bâtiments publics."
+        },
+        {
+          "title": "Fuite d'huile",
+          "desc": "Traitement des flaques et fuites d'huile sur les sols industriels, quais et parkings."
+        },
+        {
+          "title": "Vandalisme et souillures",
+          "desc": "Nettoyage après dégradation, salissures ou dépôts sur vos façades et vos accès."
+        },
+        {
+          "title": "Avant un événement",
+          "desc": "Une façade ou un accès propre avant une inauguration, une visite ou une réception."
+        },
+        {
+          "title": "Sols dangereux",
+          "desc": "Sols glissants (huile, mousses, résidus) remis en sécurité pour le public et le personnel."
+        },
+        {
+          "title": "Après un incident",
+          "desc": "Remise en propreté des surfaces extérieures après un incident ou un chantier."
+        }
+      ],
+      "stepsTitle": "Comment ça se passe",
+      "steps": [
+        {
+          "title": "Vous appelez",
+          "desc": "Décrivez la situation et l'adresse du site à notre ligne 24/7."
+        },
+        {
+          "title": "Nous mobilisons une équipe",
+          "desc": "Nous confirmons l'intervention et envoyons une équipe équipée sur place."
+        },
+        {
+          "title": "Intervention et rapport",
+          "desc": "Le site est nettoyé et sécurisé ; vous recevez un rapport photo avant et après."
+        }
+      ]
+    },
+    "contact": {
+      "metaTitle": "Contact et demande de devis",
+      "metaDesc": "Demandez un devis à GoboClean pour le nettoyage de vos façades, sols ou sites industriels. Téléphone 24/7 : +32 483 50 12 55.",
+      "eyebrow": "Contact",
+      "title": "Demander un devis",
+      "lead": "Un formulaire, un appel ou un email : nous revenons vers vous avec une proposition claire."
+    },
+    "privacy": {
+      "metaTitle": "Politique de confidentialité",
+      "eyebrow": "Confidentialité",
+      "title": "Politique de confidentialité",
+      "updated": "Dernière mise à jour : octobre 2026",
+      "sections": [
+        {
+          "title": "Responsable du traitement",
+          "body": "GoboClean, J. Wielemansstraat 42, 1652 Beersel (Belgique), TVA BE 0799.936.135. Contact : info@goboclean.be."
+        },
+        {
+          "title": "Données collectées",
+          "body": "Lorsque vous remplissez le formulaire de contact : votre nom, votre société, votre adresse email, votre numéro de téléphone, le service souhaité et le contenu de votre message."
+        },
+        {
+          "title": "Finalité et base légale",
+          "body": "Ces données servent uniquement à répondre à votre demande et à établir une offre (mesures précontractuelles, article 6.1.b du RGPD). Elles ne sont jamais vendues ni utilisées pour de la prospection sans votre accord."
+        },
+        {
+          "title": "Destinataires",
+          "body": "Nos équipes, ainsi que notre prestataire d'envoi d'emails (Resend), qui agit comme sous-traitant pour la seule transmission des messages."
+        },
+        {
+          "title": "Durée de conservation",
+          "body": "Trois ans au maximum après notre dernier échange si aucune collaboration n'en découle ; en cas de contrat, la durée imposée par nos obligations légales et comptables."
+        },
+        {
+          "title": "Vos droits",
+          "body": "Vous pouvez demander l'accès à vos données, leur rectification, leur effacement ou la limitation de leur traitement, et vous opposer à celui-ci, en écrivant à info@goboclean.be. Vous pouvez aussi introduire une réclamation auprès de l'Autorité de protection des données (www.autoriteprotectiondonnees.be)."
+        },
+        {
+          "title": "Cookies",
+          "body": "Ce site n'utilise ni cookies publicitaires ni outil de mesure d'audience. Un seul cookie technique mémorise la langue choisie."
+        }
+      ]
     }
   }
 }

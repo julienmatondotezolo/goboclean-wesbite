@@ -11,7 +11,10 @@
     "contact": "Contact",
     "quote": "Offerte aanvragen",
     "emergency": "Spoed 24/7",
-    "menu": "Menu"
+    "menu": "Menu",
+    "home": "Home",
+    "about": "Over ons",
+    "allServices": "Al onze diensten"
   },
   "hero": {
     "eyebrow": "Technische B2B-reiniging · België",
@@ -35,7 +38,7 @@
     "note": "Eigen teams en eigen materieel: we plannen snel en houden ons aan de timing."
   },
   "services": {
-    "eyebrow": "01 — Diensten",
+    "eyebrow": "Diensten",
     "title": "Alles wat aan de buitenkant van een gebouw gereinigd kan worden.",
     "lead": "Van eenvoudig onderhoud tot moeilijke werven: we stemmen methode, druk en product af op elke ondergrond.",
     "items": [
@@ -47,6 +50,18 @@
           "Appartementsgebouwen, kantoren, handelszaken",
           "Druk en product aangepast aan de ondergrond",
           "Afgebakende en beveiligde werf"
+        ],
+        "long": [
+          "Een gevel die vervuild is door luchtvervuiling, fijnstof en weersinvloeden doet de waarde van een gebouw dalen en geeft bewoners en bezoekers een slecht beeld. Wij reinigen alle soorten gevels (natuursteen, baksteen, pleisterwerk, beton, gevelbekleding) met een techniek die bij de ondergrond past: hogedruk, warm water, lagedruk met product of zachte reiniging voor kwetsbare materialen.",
+          "Voor elke werf controleren wij de staat van de ondergrond om de juiste methode te kiezen en schade te vermijden. De werkzone wordt afgebakend en beveiligd, de omgeving beschermd en de interventie zo gepland dat de gebruikers er zo weinig mogelijk hinder van hebben."
+        ],
+        "includes": [
+          "Diagnose van de ondergrond en test op een onopvallende plek",
+          "Afbakening en beveiliging van de werkzone",
+          "Bescherming van schrijnwerk, beglazing en omgeving",
+          "Hogedruk, warm water of lagedruk volgens het materiaal",
+          "Naspoelen en opruimen van de omgeving na de werf",
+          "Hydrofobering of vuilwerende bescherming als optie"
         ]
       },
       {
@@ -57,6 +72,18 @@
           "Steen, baksteen, metaal, glas",
           "Snelle interventie, ook bij spoed",
           "Resultaat gedocumenteerd met foto's"
+        ],
+        "long": [
+          "Graffiti die blijft staan, trekt nieuwe graffiti aan. Hoe sneller ze verwijderd wordt, hoe eenvoudiger de reiniging en hoe beter de ondergrond bewaard blijft. Wij verwijderen tags, graffiti, affiches en stickers van steen, baksteen, beton, metaal, hout, glas en straatmeubilair.",
+          "Product en methode worden gekozen volgens de gebruikte verf en de porositeit van de ondergrond, zodat de graffiti verdwijnt zonder schaduw achter te laten. Na de reiniging kan een anti-graffitibescherming worden aangebracht om latere verwijderingen te vergemakkelijken."
+        ],
+        "includes": [
+          "Identificatie van ondergrond en verf",
+          "Afbijten met aangepaste, biologisch afbreekbare producten",
+          "Naspoelen met hogedruk of warm water",
+          "Verwijderen van affiches en stickers",
+          "Anti-graffitibescherming als optie",
+          "Spoedinterventie bij beledigende graffiti"
         ]
       },
       {
@@ -67,6 +94,18 @@
           "Grondige curatieve behandeling",
           "Optionele waterafstotende bescherming",
           "Minder gladde, veiligere vloeren"
+        ],
+        "long": [
+          "Mos, korstmos en algen nestelen zich op muren, terrassen, binnenplaatsen, paden en parkings. Ze maken oppervlakken zwart, tasten de voegen aan en maken de grond glad: een reëel valrisico voor gebruikers en publiek.",
+          "Wij combineren een mechanische reiniging, met hogedruk of roterende borstel, met een biologisch afbreekbare curatieve behandeling die in de diepte werkt. Daarna kan een hydrofuge worden aangebracht om nieuwe aangroei te vertragen en de ondergrond te beschermen."
+        ],
+        "includes": [
+          "Reiniging met hogedruk of roterende borstel",
+          "Biologisch afbreekbare curatieve anti-mosbehandeling",
+          "Reiniging van voegen en hoeken",
+          "Afvoer van de resten",
+          "Muren, terrassen, binnenplaatsen, paden en parkings",
+          "Beschermende hydrofuge als optie"
         ]
       },
       {
@@ -77,6 +116,18 @@
           "Parkings en verkeerszones",
           "Klinkers, tegels, beton",
           "Oude en ingetrokken vlekken"
+        ],
+        "long": [
+          "Olie-, vet-, kauwgom- en roestvlekken en bandensporen geven parkings, toegangen en voetpaden snel een verwaarloosde indruk. Hoe langer ze blijven, hoe moeilijker ze te verwijderen zijn.",
+          "Wij behandelen elke vlek met het juiste product en reinigen daarna het oppervlak met warm water onder hoge druk voor een egaal resultaat. Wij werken op klinkers, tegels, beton, asfalt en natuursteen, indien nodig buiten de openingsuren."
+        ],
+        "includes": [
+          "Voorbehandeling van vlekken volgens hun aard",
+          "Reiniging met warm water onder hoge druk",
+          "Verwijderen van kauwgom",
+          "Behandeling van roestsporen",
+          "Klinkers, tegels, beton, asfalt en steen",
+          "Interventies buiten de openingsuren"
         ]
       },
       {
@@ -87,6 +138,18 @@
           "Volledige voorbereiding van de ondergrond",
           "Kleur naar keuze",
           "Verzorgde, duurzame afwerking"
+        ],
+        "long": [
+          "Een reiniging brengt soms een beschadigde ondergrond of versleten verflaag aan het licht. In plaats van een tweede aannemer in te schakelen, schilderen wij gevels, muren, plinten en buitenoppervlakken meteen opnieuw.",
+          "De voorbereiding bepaalt de kwaliteit van het resultaat: reinigen, schuren, dichten en de omgeving beschermen voor het schilderen. Wij gebruiken buitenverven die bij de ondergrond passen, voor een strakke en duurzame afwerking."
+        ],
+        "includes": [
+          "Reiniging en voorbereiding van de ondergrond",
+          "Dichten en kleine herstellingen",
+          "Bescherming van omgeving, schrijnwerk en vloeren",
+          "Buitenverf aangepast aan de ondergrond",
+          "Kleur naar keuze",
+          "Opruimen van de werf na de interventie"
         ]
       },
       {
@@ -97,43 +160,87 @@
           "Ontvetten onder hoge druk",
           "Interventies buiten de productie-uren",
           "Olielekken met spoed behandeld"
+        ],
+        "long": [
+          "Vloeren van werkplaatsen en magazijnen, laadkades, opslagzones, de omgeving van de site: een propere industriële omgeving is veiliger, aangenamer en wekt vertrouwen bij uw klanten en auditors.",
+          "Wij ontvetten met warm water onder hoge druk en behandelen olielekken en olieplassen, ook bij spoed. Onze VCA-gecertificeerde ploegen kennen de veiligheidsregels van industriële sites en plannen hun werk buiten de productie-uren."
+        ],
+        "includes": [
+          "Ontvetten van vloeren met warm water onder hoge druk",
+          "Behandeling van olielekken en olieplassen",
+          "Laadkades en opslagzones",
+          "Omgeving van de site en vrachtwagenparkings",
+          "Interventies buiten de productie-uren",
+          "Naleving van de veiligheidsregels van de site (VCA)"
         ]
       }
     ]
   },
   "sectors": {
-    "eyebrow": "02 — Sectoren",
+    "eyebrow": "Sectoren",
     "title": "Een partner voor wie gebouwen beheert.",
     "lead": "We werken voor professionals die een betrouwbare, reactieve en in orde zijnde dienstverlener nodig hebben.",
     "items": [
       {
         "title": "Syndici en mede-eigendommen",
-        "desc": "Gevels, inkomhallen, binnenplaatsen en parkings van gebouwen. Heldere offerte voor de algemene vergadering."
+        "desc": "Gevels, inkomhallen, binnenplaatsen en parkings van gebouwen. Heldere offerte voor de algemene vergadering.",
+        "services": [
+          "facades",
+          "moss",
+          "stains",
+          "graffiti"
+        ]
       },
       {
         "title": "Beheerders en facility managers",
-        "desc": "Eén dienstverlener voor het buitenonderhoud van meerdere sites, gepland volgens uw beperkingen."
+        "desc": "Eén dienstverlener voor het buitenonderhoud van meerdere sites, gepland volgens uw beperkingen.",
+        "services": [
+          "facades",
+          "stains",
+          "moss",
+          "industrial"
+        ]
       },
       {
         "title": "Gemeenten en overheden",
-        "desc": "Graffiti, straatmeubilair, openbare gebouwen en wegen, ook bij dringende interventies."
+        "desc": "Graffiti, straatmeubilair, openbare gebouwen en wegen, ook bij dringende interventies.",
+        "services": [
+          "graffiti",
+          "facades",
+          "stains"
+        ]
       },
       {
         "title": "Bedrijven en industriële sites",
-        "desc": "Werkplaatsen, magazijnen, kades en omgeving gereinigd zonder uw productie stil te leggen."
+        "desc": "Werkplaatsen, magazijnen, kades en omgeving gereinigd zonder uw productie stil te leggen.",
+        "services": [
+          "industrial",
+          "stains",
+          "facades"
+        ]
       },
       {
         "title": "Projectontwikkelaars en bouw",
-        "desc": "Eindreiniging van werven en herstel vóór oplevering of verkoop."
+        "desc": "Eindreiniging van werven en herstel vóór oplevering of verkoop.",
+        "services": [
+          "facades",
+          "stains",
+          "paint"
+        ]
       },
       {
         "title": "Handel en retail",
-        "desc": "Etalages, gevels en winkelpuien onberispelijk: de eerste indruk voor uw klanten."
+        "desc": "Etalages, gevels en winkelpuien onberispelijk: de eerste indruk voor uw klanten.",
+        "services": [
+          "facades",
+          "graffiti",
+          "stains"
+        ]
       }
     ]
   },
   "method": {
-    "eyebrow": "03 — Werkwijze",
+    "eyebrow": "Werkwijze",
     "title": "Een beheerste werf, van aanvraag tot rapport.",
     "items": [
       {
@@ -159,7 +266,7 @@
     ]
   },
   "why": {
-    "eyebrow": "04 — Engagementen",
+    "eyebrow": "Engagementen",
     "title": "Wat u van ons mag verwachten.",
     "items": [
       {
@@ -196,7 +303,7 @@
     "note": "Bereikbaar 24/7 · 7 dagen op 7"
   },
   "contact": {
-    "eyebrow": "05 — Contact",
+    "eyebrow": "Contact",
     "title": "Laten we over uw site praten.",
     "lead": "Beschrijf uw behoefte: we komen bij u terug met een duidelijk voorstel.",
     "phoneLabel": "Telefoon · 24/7",
@@ -226,14 +333,18 @@
         "industrial": "Industriële reiniging",
         "emergency": "Spoed",
         "other": "Andere"
-      }
+      },
+      "consent": "Door dit formulier te verzenden, gaat u ermee akkoord dat GoboClean uw gegevens gebruikt om uw aanvraag te behandelen.",
+      "privacyLink": "Privacybeleid"
     }
   },
   "footer": {
     "tagline": "Reiniging van gevels, graffiti en industriële sites voor professionals. VCA certified · 24/7 · Heel België.",
     "services": "Diensten",
     "company": "Bedrijf",
-    "rights": "Alle rechten voorbehouden."
+    "rights": "Alle rechten voorbehouden.",
+    "navigation": "Navigatie",
+    "privacy": "Privacy"
   },
   "legacy": {
     "metadata": {
@@ -368,6 +479,150 @@
       "legalCGV": "Algemene Voorwaarden",
       "copyright": "© 2026 Goboclean. Alle rechten voorbehouden. VCA Gecertificeerd Bedrijf.",
       "status": "24/7 Nooddienst Beschikbaar"
+    }
+  },
+  "common": {
+    "learnMore": "Meer weten",
+    "sectorsAll": "Alle sectoren bekijken",
+    "emergencyMore": "Hoe een spoedinterventie verloopt",
+    "cta": {
+      "title": "Een gebouw of site dat weer in orde moet?",
+      "lead": "Beschrijf uw behoefte: wij komen bij u terug met een duidelijk voorstel, overal in België.",
+      "quote": "Offerte aanvragen",
+      "call": "Bel +32 483 50 12 55"
+    }
+  },
+  "pages": {
+    "services": {
+      "metaTitle": "Professionele reinigingsdiensten",
+      "metaDesc": "Gevelreiniging, graffitiverwijdering, ontmossing, vlekverwijdering, herschilderen en industriële reiniging voor professionals, overal in België.",
+      "eyebrow": "Diensten",
+      "title": "Technische reiniging van gebouwen en sites.",
+      "lead": "Gevels, graffiti, mos, vlekken, schilderwerk en industriële sites: zes vakgebieden, één ploeg met eigen materiaal."
+    },
+    "serviceDetail": {
+      "eyebrow": "Dienst",
+      "includesTitle": "Wat de interventie omvat",
+      "asideTitle": "Een offerte voor deze dienst",
+      "asideLead": "Beschrijf de site: wij komen bij u terug met een duidelijk voorstel.",
+      "asideCta": "Offerte aanvragen",
+      "asideOr": "of bel ons, 24/7",
+      "otherTitle": "Onze andere diensten"
+    },
+    "sectors": {
+      "metaTitle": "Sectoren: syndici, gemeenten, bedrijven",
+      "metaDesc": "GoboClean reinigt gebouwen en sites voor syndici, vastgoedbeheerders, gemeenten, bedrijven, industrie, projectontwikkelaars en handelszaken in België.",
+      "eyebrow": "Sectoren",
+      "title": "Een partner voor wie gebouwen beheert.",
+      "lead": "Wij werken voor professionals die een betrouwbare, snelle en correcte dienstverlener nodig hebben.",
+      "servicesLabel": "Meest gevraagde diensten"
+    },
+    "about": {
+      "metaTitle": "Over ons",
+      "metaDesc": "GoboClean, Belgisch bedrijf voor technische reiniging: VCA-gecertificeerde ploegen, hogedrukmateriaal, biologisch afbreekbare producten en interventies 24/7.",
+      "eyebrow": "Over ons",
+      "title": "Een ploeg op het terrein, uitgerust voor veeleisende werven.",
+      "lead": "GoboClean is een Belgisch bedrijf voor technische reiniging, ten dienste van professionals die gebouwen en sites beheren.",
+      "introEyebrow": "Wie zijn wij",
+      "introTitle": "Technische reiniging, ernstig aangepakt.",
+      "intro": [
+        "Wij reinigen en herstellen gevels, muren, vloeren en industriële sites voor syndici, vastgoedbeheerders, gemeenten, bedrijven, projectontwikkelaars en handelszaken, overal in België.",
+        "Onze medewerkers werken met eigen materiaal: uitgeruste bestelwagens en Dibo-hogedrukmachines met warm water. Die zelfstandigheid laat ons toe snel te plannen, bij spoed tussen te komen en de aangekondigde termijnen te halen.",
+        "Veiligheid, verzekering, biologisch afbreekbare producten en een fotorapport bij elke werf: wij werken zoals onze professionele klanten het verwachten, met meerdere jaren ervaring op alle soorten ondergronden."
+      ]
+    },
+    "emergency": {
+      "metaTitle": "Spoedinterventie reiniging 24/7",
+      "metaDesc": "Beledigende graffiti, olielek, bevuiling: GoboClean komt 24/7 tussen bij spoed, ook in het weekend en op feestdagen, overal in België.",
+      "eyebrow": "Spoedinterventie 24/7",
+      "title": "Een noodgeval op uw site? Wij komen dag en nacht tussen.",
+      "lead": "Graffiti, olielek, bevuiling: bel ons op elk uur, ook in het weekend en op feestdagen. Een uitgeruste ploeg vertrekt overal in België.",
+      "callLabel": "Noodlijn 24/7",
+      "situationsTitle": "Situaties waarvoor men ons belt",
+      "situations": [
+        {
+          "title": "Beledigende of haatdragende graffiti",
+          "desc": "Prioritaire verwijdering van kwetsende tags op gevels, etalages en openbare gebouwen."
+        },
+        {
+          "title": "Olielek",
+          "desc": "Behandeling van olieplassen en -lekken op industriële vloeren, kades en parkings."
+        },
+        {
+          "title": "Vandalisme en bevuiling",
+          "desc": "Reiniging na beschadiging, bevuiling of sluikstort op uw gevels en toegangen."
+        },
+        {
+          "title": "Voor een evenement",
+          "desc": "Een propere gevel of toegang voor een inhuldiging, een bezoek of een receptie."
+        },
+        {
+          "title": "Gevaarlijke vloeren",
+          "desc": "Gladde vloeren (olie, mos, resten) weer veilig voor publiek en personeel."
+        },
+        {
+          "title": "Na een incident",
+          "desc": "Buitenoppervlakken opnieuw proper na een incident of een werf."
+        }
+      ],
+      "stepsTitle": "Hoe het verloopt",
+      "steps": [
+        {
+          "title": "U belt",
+          "desc": "Beschrijf de situatie en het adres van de site aan onze 24/7-lijn."
+        },
+        {
+          "title": "Wij sturen een ploeg",
+          "desc": "Wij bevestigen de interventie en sturen een uitgeruste ploeg ter plaatse."
+        },
+        {
+          "title": "Interventie en rapport",
+          "desc": "De site wordt gereinigd en beveiligd; u ontvangt een fotorapport voor en na."
+        }
+      ]
+    },
+    "contact": {
+      "metaTitle": "Contact en offerteaanvraag",
+      "metaDesc": "Vraag GoboClean een offerte voor de reiniging van uw gevels, vloeren of industriële sites. Telefoon 24/7: +32 483 50 12 55.",
+      "eyebrow": "Contact",
+      "title": "Offerte aanvragen",
+      "lead": "Een formulier, een telefoontje of een e-mail: wij komen bij u terug met een duidelijk voorstel."
+    },
+    "privacy": {
+      "metaTitle": "Privacybeleid",
+      "eyebrow": "Privacy",
+      "title": "Privacybeleid",
+      "updated": "Laatst bijgewerkt: oktober 2026",
+      "sections": [
+        {
+          "title": "Verwerkingsverantwoordelijke",
+          "body": "GoboClean, J. Wielemansstraat 42, 1652 Beersel (België), btw BE 0799.936.135. Contact: info@goboclean.be."
+        },
+        {
+          "title": "Verzamelde gegevens",
+          "body": "Wanneer u het contactformulier invult: uw naam, uw bedrijf, uw e-mailadres, uw telefoonnummer, de gewenste dienst en de inhoud van uw bericht."
+        },
+        {
+          "title": "Doel en rechtsgrond",
+          "body": "Deze gegevens dienen uitsluitend om uw aanvraag te beantwoorden en een offerte op te stellen (precontractuele maatregelen, artikel 6.1.b AVG). Ze worden nooit verkocht of zonder uw toestemming voor prospectie gebruikt."
+        },
+        {
+          "title": "Ontvangers",
+          "body": "Onze ploegen en onze e-mailverzendingsdienst (Resend), die als verwerker uitsluitend de berichten doorstuurt."
+        },
+        {
+          "title": "Bewaartermijn",
+          "body": "Maximaal drie jaar na ons laatste contact als er geen samenwerking uit volgt; bij een contract, de termijn die onze wettelijke en boekhoudkundige verplichtingen opleggen."
+        },
+        {
+          "title": "Uw rechten",
+          "body": "U kunt inzage, verbetering, wissing of beperking van de verwerking van uw gegevens vragen en u ertegen verzetten door te schrijven naar info@goboclean.be. U kunt ook klacht indienen bij de Gegevensbeschermingsautoriteit (www.gegevensbeschermingsautoriteit.be)."
+        },
+        {
+          "title": "Cookies",
+          "body": "Deze site gebruikt geen advertentiecookies en geen tool voor bezoekersstatistieken. Eén technische cookie onthoudt de gekozen taal."
+        }
+      ]
     }
   }
 }
