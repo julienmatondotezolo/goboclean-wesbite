@@ -234,5 +234,140 @@
     "services": "Services",
     "company": "Entreprise",
     "rights": "Tous droits réservés."
+  },
+  "legacy": {
+    "metadata": {
+      "title": "Goboclean | Services de Nettoyage Industriel Certifiés VCA Belgique",
+      "description": "Entreprise de nettoyage industriel certifiée VCA en Belgique. Services professionnels avec assistance d'urgence 24/7. Sols industriels, zones de production, nettoyage de fuites d'huile. Appelez +32 483 50 12 55"
+    },
+    "navbar": {
+      "services": "Services",
+      "about": "À Propos",
+      "emergency": "Urgences 24/7",
+      "contact": "Contact",
+      "quote": "Devis Gratuit"
+    },
+    "hero": {
+      "badge": "Certifié VCA • Service d'Urgence 24/7",
+      "title": "Solutions Professionnelles",
+      "titleHighlight": "de Nettoyage Industriel",
+      "description": "Votre partenaire certifié VCA de confiance en Belgique pour les services de nettoyage industriel. Spécialisés dans le nettoyage haute pression, la décontamination et les interventions d'urgence. Au service des usines, entrepôts et installations industrielles dans toute la Belgique avec conformité de sécurité garantie.",
+      "descriptionMobile": "Nettoyage industriel professionnel certifié VCA. Service d'urgence disponible 24/7.",
+      "ctaPrimary": "Demander une Intervention",
+      "ctaSecondary": "Voir Nos Services",
+      "stat1Label": "Certifié VCA",
+      "stat2Label": "Disponible 24/7"
+    },
+    "services": {
+      "badge": "Services Certifiés VCA",
+      "title": "Nettoyage et Maintenance Industriels Complets",
+      "description": "Solutions de nettoyage professionnelles garanties par la certification VCA. Nous fournissons des services d'hygiène industrielle experts avec équipements de pointe et protocoles de sécurité certifiés pour une efficacité maximale.",
+      "floors": {
+        "title": "Nettoyage et Dégraissage de Sols Industriels",
+        "description": "Nettoyage haute pression pour sols d'usine, parkings souterrains et surfaces industrielles. Élimination complète des graisses, huiles, traces de gomme et contaminants tenaces. Conformité VCA garantie."
+      },
+      "production": {
+        "title": "Décontamination des Zones de Production",
+        "description": "Nettoyage et désinfection professionnels des lignes de production, machines et environnements de fabrication sensibles. Maintenez la productivité avec un temps d'arrêt minimal et une conformité totale."
+      },
+      "spills": {
+        "title": "Intervention d'Urgence Fuites d'Huile",
+        "description": "Intervention rapide 24/7 pour déversements d'huile et de produits chimiques. Confinement immédiat, nettoyage et élimination sûre des matières dangereuses. Minimisez les pertes de production avec nos équipes d'intervention d'urgence."
+      },
+      "concrete": {
+        "title": "Restauration Béton et Surfaces",
+        "description": "Rénovation professionnelle de surfaces en béton, dallages industriels et sols d'ateliers. Décapage haute pression et traitement de protection pour des résultats durables."
+      },
+      "logistics": {
+        "title": "Nettoyage d'Entrepôts et Logistique",
+        "description": "Solutions de nettoyage complètes pour entrepôts, centres de distribution et installations de stockage. Dépoussiérage des structures, lavage des sols et maintenance complète de l'hygiène."
+      },
+      "docks": {
+        "title": "Maintenance des Quais de Chargement",
+        "description": "Nettoyage régulier et d'urgence des quais de chargement, zones de fret et zones logistiques. Assurez des opérations quotidiennes sûres et la conformité aux normes de sécurité au travail."
+      }
+    },
+    "emergency": {
+      "badge": "Intervention d'Urgence 24/7",
+      "title": "Urgence Industrielle ?",
+      "titleHighlight": "Nous Sommes Prêts",
+      "description": "Fuite d'huile critique ? Arrêt de production dû à une contamination ? Dégâts d'incendie ou d'inondation nécessitant un nettoyage immédiat ? Nos équipes d'urgence certifiées VCA interviennent immédiatement avec équipements professionnels pour minimiser vos temps d'arrêt et pertes.",
+      "feature1": "Déploiement immédiat • Équipes certifiées VCA",
+      "feature2": "Équipement professionnel autonome",
+      "cta": "APPELER LIGNE D'URGENCE",
+      "ctaSubtext": "+32 483 50 12 55 • Disponible 24/7/365"
+    },
+    "about": {
+      "badge": "Entreprise Certifiée VCA",
+      "title": "Votre Partenaire de Confiance pour l'Excellence en Hygiène Industrielle",
+      "description1": "Goboclean est une entreprise belge certifiée VCA spécialisée dans les services professionnels de nettoyage et maintenance industriels. Nous comprenons que la propreté industrielle est essentielle pour la sécurité, la conformité et la productivité. Notre certification garantit les normes de sécurité et de qualité les plus élevées.",
+      "description2": "Nos équipes certifiées utilisent des équipements haute pression eau chaude de pointe et des produits approuvés écologiquement. Que vous ayez besoin d'un entretien régulier ou d'une intervention d'urgence, nous offrons des résultats impeccables tout en respectant les réglementations environnementales et les exigences de sécurité au travail.",
+      "statYears": "Années d'expertise éprouvée",
+      "feature1Title": "Certifié VCA",
+      "feature1Description": "Certification officielle de sécurité pour environnements de travail industriels.",
+      "feature2Title": "Technologie Avancée",
+      "feature2Description": "Équipement industriel haute pression eau chaude pour résultats supérieurs.",
+      "feature3Title": "Sécurité d'Abord",
+      "feature3Description": "Personnel certifié formé à la prévention des risques industriels.",
+      "feature4Title": "Disponibilité 24/7",
+      "feature4Description": "Équipes d'intervention d'urgence prêtes jour, nuit et week-ends."
+    },
+    "contact": {
+      "badge": "Obtenez Votre Devis Gratuit",
+      "title": "Services Professionnels de Nettoyage Industriel",
+      "infoTitle": "Coordonnées",
+      "phone": "Téléphone",
+      "phoneNumber": "+32 483 50 12 55",
+      "phoneAvailable": "Disponible 24/7 pour Urgences",
+      "email": "Email",
+      "emailAddress": "info@goboclean.be",
+      "location": "Adresse du Bureau",
+      "locationAddress": "J. Wielemansstraat 42",
+      "locationCity": "1652 Beersel, Belgique",
+      "vat": "Numéro TVA",
+      "vatNumber": "BE 0799.936.135",
+      "infoFooter": "Équipes certifiées VCA au service de toute la Belgique pour vos besoins en nettoyage industriel.",
+      "formName": "Nom Complet",
+      "formNamePlaceholder": "Votre nom complet",
+      "formCompany": "Nom de l'Entreprise",
+      "formCompanyPlaceholder": "Votre entreprise",
+      "formEmail": "Email Professionnel",
+      "formEmailPlaceholder": "votre.email@entreprise.be",
+      "formPhone": "Numéro de Téléphone",
+      "formPhonePlaceholder": "+32 4XX XX XX XX",
+      "formService": "Service Requis",
+      "formServiceOption1": "Nettoyage Sols Industriels",
+      "formServiceOption2": "Nettoyage Zone de Production",
+      "formServiceOption3": "Urgence / Intervention Fuite d'Huile",
+      "formServiceOption4": "Nettoyage Entrepôts & Logistique",
+      "formServiceOption5": "Autre Service",
+      "formMessage": "Détails du Projet",
+      "formMessagePlaceholder": "Veuillez décrire vos besoins : surface, type de contamination, fréquence requise, contraintes spécifiques...",
+      "formSubmit": "Demander un Devis Gratuit"
+    },
+    "footer": {
+      "description": "Goboclean - Entreprise de nettoyage industriel certifiée VCA en Belgique. Nettoyage haute pression professionnel, décontamination et services d'urgence 24/7 pour installations industrielles.",
+      "quickLinks": "Liens Rapides",
+      "home": "Accueil",
+      "about": "À Propos",
+      "services": "Nos Services",
+      "quote": "Demander un Devis",
+      "servicesTitle": "Nos Services",
+      "serviceFloors": "Dégraissage Sols",
+      "serviceProduction": "Nettoyage Production",
+      "serviceSpills": "Intervention d'Urgence",
+      "serviceDocks": "Nettoyage Quais",
+      "contactTitle": "Contact",
+      "contactPhone": "+32 483 50 12 55",
+      "contactEmail": "info@goboclean.be",
+      "contactAddress": "J. Wielemansstraat 42, 1652 Beersel",
+      "contactVat": "TVA: BE 0799.936.135",
+      "legalTitle": "Légal",
+      "legalTerms": "Conditions d'Utilisation",
+      "legalPrivacy": "Politique de Confidentialité",
+      "legalCGV": "Conditions Générales",
+      "copyright": "© 2026 Goboclean. Tous droits réservés. Entreprise Certifiée VCA.",
+      "status": "Service d'Urgence Disponible 24/7"
+    }
   }
 }

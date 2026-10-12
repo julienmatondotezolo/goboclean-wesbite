@@ -234,5 +234,140 @@
     "services": "Diensten",
     "company": "Bedrijf",
     "rights": "Alle rechten voorbehouden."
+  },
+  "legacy": {
+    "metadata": {
+      "title": "Goboclean | VCA Gecertificeerde Industriële Reinigingsdiensten België",
+      "description": "VCA gecertificeerd industrieel reinigingsbedrijf in België. Professionele reinigingsdiensten met 24/7 noodondersteuning. Industriële vloeren, productiegebieden en olielek opruiming. Bel +32 483 50 12 55"
+    },
+    "navbar": {
+      "services": "Diensten",
+      "about": "Over Ons",
+      "emergency": "24/7 Noodgeval",
+      "contact": "Contact",
+      "quote": "Gratis Offerte"
+    },
+    "hero": {
+      "badge": "VCA Gecertificeerd • 24/7 Nooddienst",
+      "title": "Professionele Industriële",
+      "titleHighlight": "Reinigingsoplossingen",
+      "description": "Uw vertrouwde VCA gecertificeerde partner in België voor industriële reinigingsdiensten. Gespecialiseerd in hogedruk reiniging, decontaminatie en noodinterventies. We bedienen fabriek, magazijnen en industriële faciliteiten in heel België met gegarandeerde veiligheidsnaleving.",
+      "descriptionMobile": "Professionele VCA gecertificeerde industriële reiniging. 24/7 nooddienst beschikbaar.",
+      "ctaPrimary": "Vraag Nooddienst Aan",
+      "ctaSecondary": "Bekijk Onze Diensten",
+      "stat1Label": "VCA Gecertificeerd",
+      "stat2Label": "24/7 Beschikbaar"
+    },
+    "services": {
+      "badge": "VCA Gecertificeerde Diensten",
+      "title": "Volledige Industriële Reiniging & Onderhoud",
+      "description": "Professionele reinigingsoplossingen ondersteund door VCA certificering. We leveren expert industriële hygiënediensten met geavanceerde apparatuur en gecertificeerde veiligheidsprotocollen voor maximale efficiëntie.",
+      "floors": {
+        "title": "Industriële Vloerreiniging & Ontvetting",
+        "description": "Hogedruk reiniging voor fabrieksvloeren, ondergrondse parkeergarages en industriële oppervlakken. Volledige verwijdering van vet, olie, rubberstrepen en hardnekkige verontreinigingen. VCA veiligheidsnaleving gegarandeerd."
+      },
+      "production": {
+        "title": "Productiegebied Decontaminatie",
+        "description": "Professionele reiniging en desinfectie van productielijnen, machines en gevoelige productieomgevingen. Behoud productiviteit met minimale downtime en volledige naleving."
+      },
+      "spills": {
+        "title": "Nood Olielek Interventie",
+        "description": "24/7 snelle respons voor olie- en chemische lekken. Onmiddellijke insluiting, reiniging en veilige verwijdering van gevaarlijke materialen. Minimaliseer productieverlies met onze noodinterventie teams."
+      },
+      "concrete": {
+        "title": "Beton & Oppervlakte Restauratie",
+        "description": "Professionele renovatie van betonnen oppervlakken, industriële bestrating en werkplaatsvloeren. Hogedruk strippen en beschermende behandeling voor blijvende resultaten."
+      },
+      "logistics": {
+        "title": "Magazijn & Logistiek Reiniging",
+        "description": "Volledige reinigingsoplossingen voor magazijnen, distributiecentra en opslagfaciliteiten. Structuur ontstoffing, vloerwassen en uitgebreid hygiëne onderhoud."
+      },
+      "docks": {
+        "title": "Laadperron Onderhoud",
+        "description": "Regelmatige en noodreiniging van laadperrons, vrachtgebieden en logistieke zones. Verzeker veilige dagelijkse operaties en naleving van arbeidsveiligheidsnormen."
+      }
+    },
+    "emergency": {
+      "badge": "24/7 Noodinterventie",
+      "title": "Industriële Noodsituatie?",
+      "titleHighlight": "Wij Zijn Nu Klaar",
+      "description": "Kritiek olielek? Productiestop door besmetting? Brand- of waterschade die onmiddellijke reiniging vereist? Onze VCA gecertificeerde noodteams reageren onmiddellijk met professionele apparatuur om uw downtime en verliezen te minimaliseren.",
+      "feature1": "Onmiddellijke inzet • VCA gecertificeerde teams",
+      "feature2": "Professionele autonome apparatuur",
+      "cta": "BEL NOODLIJN",
+      "ctaSubtext": "+32 483 50 12 55 • Beschikbaar 24/7/365"
+    },
+    "about": {
+      "badge": "VCA Gecertificeerd Bedrijf",
+      "title": "Uw Vertrouwde Partner voor Industriële Hygiëne Excellentie",
+      "description1": "Goboclean is een VCA gecertificeerd Belgisch bedrijf gespecialiseerd in professionele industriële reiniging en onderhoudsdiensten. We begrijpen dat industriële reinheid cruciaal is voor veiligheid, naleving en productiviteit. Onze certificering garandeert de hoogste veiligheids- en kwaliteitsnormen.",
+      "description2": "Onze gecertificeerde teams gebruiken ultramoderne warmwater hogedruk apparatuur en milieuvriendelijk goedgekeurde producten. Of u nu regelmatig onderhoud of een noodinterventie nodig heeft, wij leveren onberispelijke resultaten met respect voor milieuregelgeving en arbeidsveiligheidseisen.",
+      "statYears": "Jaar bewezen expertise",
+      "feature1Title": "VCA Gecertificeerd",
+      "feature1Description": "Officiële veiligheidscertificering voor industriële werkomgevingen.",
+      "feature2Title": "Geavanceerde Technologie",
+      "feature2Description": "Industriële warmwater hogedruk apparatuur voor superieure resultaten.",
+      "feature3Title": "Veiligheid Eerst",
+      "feature3Description": "Gecertificeerd personeel getraind in industriële risicopreventie.",
+      "feature4Title": "24/7 Beschikbaarheid",
+      "feature4Description": "Noodinterventie teams klaar dag, nacht en weekenden."
+    },
+    "contact": {
+      "badge": "Vraag Uw Gratis Offerte",
+      "title": "Professionele Industriële Reinigingsdiensten",
+      "infoTitle": "Contactinformatie",
+      "phone": "Telefoon",
+      "phoneNumber": "+32 483 50 12 55",
+      "phoneAvailable": "Beschikbaar 24/7 voor Noodgevallen",
+      "email": "E-mail",
+      "emailAddress": "info@goboclean.be",
+      "location": "Kantooradres",
+      "locationAddress": "J. Wielemansstraat 42",
+      "locationCity": "1652 Beersel, België",
+      "vat": "BTW Nummer",
+      "vatNumber": "BE 0799.936.135",
+      "infoFooter": "VCA gecertificeerde teams die heel België bedienen voor uw industriële reinigingsbehoeften.",
+      "formName": "Volledige Naam",
+      "formNamePlaceholder": "Uw volledige naam",
+      "formCompany": "Bedrijfsnaam",
+      "formCompanyPlaceholder": "Uw bedrijf",
+      "formEmail": "Professioneel E-mailadres",
+      "formEmailPlaceholder": "uw.email@bedrijf.be",
+      "formPhone": "Telefoonnummer",
+      "formPhonePlaceholder": "+32 4XX XX XX XX",
+      "formService": "Vereiste Dienst",
+      "formServiceOption1": "Industriële Vloerreiniging",
+      "formServiceOption2": "Productiegebied Reiniging",
+      "formServiceOption3": "Noodgeval / Olielek Interventie",
+      "formServiceOption4": "Magazijn & Logistiek Reiniging",
+      "formServiceOption5": "Andere Dienst",
+      "formMessage": "Projectdetails",
+      "formMessagePlaceholder": "Beschrijf uw behoeften: oppervlakte, type vervuiling, vereiste frequentie, specifieke beperkingen...",
+      "formSubmit": "Vraag Gratis Offerte Aan"
+    },
+    "footer": {
+      "description": "Goboclean - VCA gecertificeerd industrieel reinigingsbedrijf in België. Professionele hogedruk reiniging, decontaminatie en 24/7 nooddiensten voor industriële faciliteiten.",
+      "quickLinks": "Snelle Links",
+      "home": "Home",
+      "about": "Over Ons",
+      "services": "Onze Diensten",
+      "quote": "Offerte Aanvragen",
+      "servicesTitle": "Onze Diensten",
+      "serviceFloors": "Vloerontvetting",
+      "serviceProduction": "Productie Reiniging",
+      "serviceSpills": "Noodinterventie",
+      "serviceDocks": "Laadperron Reiniging",
+      "contactTitle": "Contact",
+      "contactPhone": "+32 483 50 12 55",
+      "contactEmail": "info@goboclean.be",
+      "contactAddress": "J. Wielemansstraat 42, 1652 Beersel",
+      "contactVat": "BTW: BE 0799.936.135",
+      "legalTitle": "Juridisch",
+      "legalTerms": "Gebruiksvoorwaarden",
+      "legalPrivacy": "Privacybeleid",
+      "legalCGV": "Algemene Voorwaarden",
+      "copyright": "© 2026 Goboclean. Alle rechten voorbehouden. VCA Gecertificeerd Bedrijf.",
+      "status": "24/7 Nooddienst Beschikbaar"
+    }
   }
 }

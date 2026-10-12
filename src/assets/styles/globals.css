@@ -14,6 +14,11 @@
   --color-chalk: #f3f4ee;
   --color-ink: #071a0f;
   --color-stone: #5b6b60;
+
+  /* Ancien site (page d'accueil actuelle) — à retirer avec src/components/legacy */
+  --color-gobo-dark: #022c22;
+  --color-gobo-medium: #064e3b;
+  --color-gobo-neon: #a3e635;
 }
 
 @layer base {
